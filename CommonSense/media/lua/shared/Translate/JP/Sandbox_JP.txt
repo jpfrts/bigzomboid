@@ -1,0 +1,12 @@
+Sandbox_JP = {
+    Sandbox_CommonSense = "常識",
+    Sandbox_CommonSense_PryingMechanic = "クローバーの力学",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "プレイヤーがバールを使用してドアや窓などを開けることができるかどうかを切り替えます。 ",
+    Sandbox_CommonSense_PartsHighlighter = "部品状態ハイライト",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "車のダッシュボードにバッテリーとエンジンのアイコンを、状態に応じてさまざまな色で表示します。 "
+    Sandbox_CommonSense_ColorFilter = "カラーフィルター",
+    Sandbox_CommonSense_ColorFilter_tooltip = "色覚異常のある人に優しい色を切り替えます。 ",
+    Sandbox_CommonSense_PryAllDoors = "全てのドアをこじ開ける",
+    Sandbox_CommonSense_PryAllDoors_tooltip = "すべてのドアをこじ開けることができるかどうかを決定します。<br>デフォルトでは、強化されたドア (刑務所のドア、金属格子のドアなど) はこじ開けることができません。 ",
+    Sandbox_CommonSense_PryingChanceMultiplier = "開錠チャンスの乗数",
+}

@@ -1,0 +1,12 @@
+Sandbox_PL = {
+    Sandbox_CommonSense = "Zdrowy rozs¹dek",
+    Sandbox_CommonSense_PryingMechanic = "Mechanika £omu",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Prze³¹cza mo¿liwoœæ przez gracza podwa¿enia drzwi, okien, etc. za pomoc¹ £omu.",
+    Sandbox_CommonSense_PartsHighlighter = "Zakreœlacz stanu czêœci",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Wyœwietla ikonê akumulatora i silnika na desce rozdzielczej pojazdu w ró¿nych kolorach w zale¿noœci od ich stanu. "
+    Sandbox_CommonSense_ColorFilter = "Filtr kolorów",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Prze³¹cza przyjazne kolory dla osób dotkniêtych daltonizmem. ",
+    Sandbox_CommonSense_PryAllDoors = "Podwa¿ wszystkie drzwi",
+    Sandbox_CommonSense_PryAllDoors_tooltip = "Okreœla, czy wszystkie drzwi mo¿na wywa¿yæ, czy nie.<br>Domyœlnie wzmocnionych drzwi (drzwi wiêziennych, drzwi z metalowej siatki itp.) nie mo¿na wywa¿yæ. ",
+    Sandbox_CommonSense_PryingChanceMultiplier = "Mno¿nik Szansy na Wywa¿enie",
+}

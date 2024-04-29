@@ -1,0 +1,6 @@
+ContextMenu_PT = {
+    ContextMenu_Pry_open = "Arrombar",
+	ContextMenu_WashEquippedOnly = "Apenas Equipados",
+    ContextMenu_WashUnequippedOnly = "Apenas Não Equipados ",
+    ContextMenu_WashWeaponsOnly = "Apenas armas ",
+}

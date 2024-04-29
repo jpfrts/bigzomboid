@@ -1,0 +1,12 @@
+Sandbox_IT = {
+    Sandbox_CommonSense = "Buon Senso",
+    Sandbox_CommonSense_PryingMechanic = "Meccanica Piede di porco",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Consente ai giocatori di aprire porte, finestre, ecc. con un piede di porco. ",
+    Sandbox_CommonSense_PartsHighlighter = "Evidenziatore delle condizioni delle parti",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Visualizza l'icona per Batteria e Motore nei cruscotti dei veicoli in vari colori a seconda delle loro condizioni. "
+    Sandbox_CommonSense_ColorFilter = "Filtro colore",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Attiva/disattiva i colori amichevoli per le persone affette dal daltonismo. ",
+    Sandbox_CommonSense_PryAllDoors = "Fai leva su tutte le porte",
+    Sandbox_CommonSense_PryAllDoors_tooltip = "Determina se tutte le porte possono essere aperte o meno.<br>Per impostazione predefinita, le porte rinforzate (porte della prigione, porte con griglia metallica, ecc.) non possono essere aperte con forza. ",
+    Sandbox_CommonSense_PryingChanceMultiplier = "Moltiplicatore di Probabilità di Forzatura",
+}

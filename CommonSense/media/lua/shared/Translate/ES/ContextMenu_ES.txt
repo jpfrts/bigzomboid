@@ -1,0 +1,6 @@
+ContextMenu_ES = {
+    ContextMenu_Pry_open = "Abrir a la fuerza",
+	ContextMenu_WashEquippedOnly = "Solo equipado ",
+    ContextMenu_WashUnequippedOnly = "Solo sin equipar ",
+    ContextMenu_WashWeaponsOnly = "Sólo armas ",
+}

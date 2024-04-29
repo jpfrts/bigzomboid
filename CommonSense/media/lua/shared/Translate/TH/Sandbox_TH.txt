@@ -1,0 +1,12 @@
+    Sandbox_TH = {
+    Sandbox_CommonSense = "สามัญสำนึก",
+    Sandbox_CommonSense_PryingMechanic = "ช่างงัดแงะ",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "เปิด/ปิดการอนุญาตให้ผู้เล่นสามารถแงะประตู หน้าต่าง ฯลฯ โดยใช้ชะแลง ",
+    Sandbox_CommonSense_PartsHighlighter = "ใช้สีระบุสภาพเครื่องยนต์",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "แสดงไอคอนแบตเตอรี่และเครื่องยนต์ในแผงหน้าปัดรถยนต์เป็นสีต่าง ๆ ตามสภาพความสมบูรณ์"
+    Sandbox_CommonSense_ColorFilter = "ฟิลเตอร์สี",
+    Sandbox_CommonSense_ColorFilter_tooltip = "เปิด/ปิดการใช้งานสีที่เป็นมิตรสำหรับคนตาบอดสี ",
+    Sandbox_CommonSense_PryAllDoors = "แงะประตูทั้งหมด",
+    Sandbox_CommonSense_PryAllDoors_tooltip = "กำหนดว่าประตูทุกบานสามารถแงะเปิดได้หรือไม่<br>ตามค่าเริ่มต้น ประตูเสริม (ประตูเรือนจำ ประตูตะแกรงโลหะ ฯลฯ) จะไม่สามารถเปิดได้ ",
+    Sandbox_CommonSense_PryingChanceMultiplier = "ตัวคูณโอกาสเปิดบรรจุ",
+}

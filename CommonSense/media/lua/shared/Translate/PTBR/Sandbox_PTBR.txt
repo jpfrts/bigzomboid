@@ -1,0 +1,12 @@
+Sandbox_PTBR = {
+    Sandbox_CommonSense = "Bom Senso",
+    Sandbox_CommonSense_PryingMechanic = "Mecânica do Pé-de-cabra",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Alterna se os jogadores podem abrir portas, janelas, etc. usando um pé de cabra. ",
+    Sandbox_CommonSense_PartsHighlighter = "Marcador de condição de peças",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Exibe o ícone da bateria e do motor nos painéis dos veículos em várias cores, dependendo de suas condições. "
+    Sandbox_CommonSense_ColorFilter = "Filtro de Cor",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Alterna cores amigáveis para aqueles afetados pelo daltonismo. ",
+    Sandbox_CommonSense_PryAllDoors = "Arrombar todas as portas",
+    Sandbox_CommonSense_PryAllDoors_tooltip = "Determina se todas as portas podem ser arrombadas ou não.<br>Por padrão, portas reforçadas (portas de prisão, portas de grade de metal, etc.) não podem ser arrombadas. ",
+    Sandbox_CommonSense_PryingChanceMultiplier = "Multiplicador de Chance de Arrombamento",
+}

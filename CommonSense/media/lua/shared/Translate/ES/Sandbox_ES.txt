@@ -1,0 +1,12 @@
+Sandbox_ES = {
+    Sandbox_CommonSense = "Sentido Común",
+    Sandbox_CommonSense_PryingMechanic = "Mecánica de Palanca",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Alterna si los jugadores pueden forzar las puertas, ventanas, etc. uitilizando una palanca ",
+    Sandbox_CommonSense_PartsHighlighter = "Resaltador del estado de las piezas",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Muestra el ícono de la batería y el motor en los tableros del vehículo en varios colores según su condición. "
+    Sandbox_CommonSense_ColorFilter = "Filtro de Color",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Alterna colores amigables para aquellos afectados por el daltonismo. ",
+    Sandbox_CommonSense_PryAllDoors = "Haga palanca en todas las puertas",
+    Sandbox_CommonSense_PryAllDoors_tooltip = "Determina si todas las puertas se pueden abrir o no.<br>De forma predeterminada, las puertas reforzadas (puertas de prisión, puertas de rejilla metálica, etc.) no se pueden abrir con palanca. ",
+    Sandbox_CommonSense_PryingChanceMultiplier = "Multiplicador de Probabilidad de Apertura",
+}

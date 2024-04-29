@@ -1,0 +1,12 @@
+Sandbox_FR = {
+    Sandbox_CommonSense = "Bon Sens",
+    Sandbox_CommonSense_PryingMechanic = "Mécanique du Pied-de-biche",
+    Sandbox_CommonSense_PryingMechanic_tooltip = "Indique si les joueurs peuvent ouvrir des portes, des fenêtres, etc. à l'aide d'un pied-de-biche. ",
+    Sandbox_CommonSense_PartsHighlighter = "Surligneur de l'état des pièces",
+    Sandbox_CommonSense_PartsHighlighter_tooltip = "Affiche l'icône de la batterie et du moteur dans les tableaux de bord des véhicules dans différentes couleurs en fonction de leur état. "
+    Sandbox_CommonSense_ColorFilter = "Filtre de couleur",
+    Sandbox_CommonSense_ColorFilter_tooltip = "Bascule les couleurs amicales pour les personnes affectées par le daltonisme. ",
+    Sandbox_CommonSense_PryAllDoors = "Faire levier sur toutes les portes",
+    Sandbox_CommonSense_PryAllDoors_tooltip = "Détermine si toutes les portes peuvent être forcées ou non.<br>Par défaut, les portes renforcées (portes de prison, portes à grille métallique, etc.) ne peuvent pas être forcées. ",
+    Sandbox_CommonSense_PryingChanceMultiplier = "Multiplicateur de Chance d'Ouverture",
+}
