@@ -1,0 +1,5 @@
+name=Realistic Meditation
+id=RealisticMeditation
+poster=poster.png
+description=A simple patch to remove the levitation from Lifestyle: Hobbies
+require=Lifestyle
