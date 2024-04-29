@@ -1,5 +1,0 @@
-name=Standardized Vehicle Upgrades - Tow Truck
-id=STowTruck_SVUPatch
-require=tsarslib,StandardizedVehicleUpgradesCore,STowTruck
-description=This patch gives the Rhino the armor upgrades from 'Standardized Vehicle Upgrades' mod.
-poster=poster.png
