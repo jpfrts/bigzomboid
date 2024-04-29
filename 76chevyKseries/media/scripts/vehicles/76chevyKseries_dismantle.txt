@@ -1,0 +1,97 @@
+module Base
+
+{
+	recipe Dismantle 76 Chevrolet K Series Tire
+    	{
+		76chevyKseriesTire2,
+		keep Crowbar,
+
+		NoBrokenItems:false,
+		Result:SteelRimSmall,
+		Time:350.0,
+		Category:Recycling,
+		SkillRequired:Mechanics=2,
+		OnCreate:DAMN.OnCreate.DismantleTireSmall,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 76 Chevrolet K Series Roofrack
+    	{
+		BlowTorch=3,
+       	keep WeldingMask,
+		76chevyKseriesRoofrack2,
+
+		NoBrokenItems:false,
+		Result:MetalPipe=2,
+		Time:500.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=3,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 76 Chevrolet K Series Lid
+    	{
+		76chevyKseriesEngineDoor2/76chevyKseriesTrunkDoor2,
+		BlowTorch=3,
+       	keep WeldingMask,
+
+		NoBrokenItems:false,
+		Result:Screws=1,
+		Time:400.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=3,
+		OnCreate:DAMN.OnCreate.DismantleTrunkLid,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 76 Chevrolet K Series Door
+    	{
+		76chevyKseriesFrontDoor2,
+		BlowTorch=3,
+       	keep WeldingMask,
+
+		NoBrokenItems:false,
+		Result:damnCraft.HandleModern,
+		Time:400.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=3,
+		OnCreate:DAMN.OnCreate.DismantleDoor,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 76 Chevrolet K Series Armor
+    	{
+		76chevyKseriesFrontWindowArmor/76chevyKseriesWindshieldArmor/76chevyKseriesBumperFront0/76chevyKseriesBullbarFrontA/76chevyKseriesBumperRear0/76chevyKseriesBumperRearA/76chevyKseriesRollbar2/76chevyKseriesToolbox2/76chevyK10BedCap2/76chevyK20BedCap2,
+		BlowTorch=3,
+       	keep WeldingMask,
+
+		NoBrokenItems:false,
+		Result:SheetMetal=1,
+		Time:600.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=3,
+		OnCreate:DAMN.OnCreate.DismantleRim,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 76 Chevrolet K Series Seat
+    	{
+		76chevyKseriesSeatFront2,
+		keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.DullKnife]/Scalpel,
+
+		NoBrokenItems:false,
+		Result:SeatFrameLarge=1,
+		Time:350.0,
+		Category:Recycling,
+		SkillRequired:Mechanics=1,
+		OnCreate:DAMN.OnCreate.DismantleSeat,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+}

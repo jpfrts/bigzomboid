@@ -1,0 +1,597 @@
+module damnCraft
+{
+
+    /****************************** damnCraft literature ******************************/
+
+    item SchematicsBox
+    {
+        DisplayCategory = SkillBook,
+        Weight  =   0.9,
+        Type    =   Normal,
+        DisplayName =   Vehicle Schematics - Complete Collection,
+        Icon    =   damn_schematics_box,
+        Tooltip = Tooltip_item_damnSchematicsBox,
+        WorldStaticModel = damnCraftSchematicsBoxWI,
+    }
+
+    item WindowSchematics
+    {
+        DisplayCategory = SkillBook,
+        Weight  =   0.1,
+        Type    =   Literature,
+        DisplayName =   Vehicle Schematics Vol.1 - Windows,
+        Icon    =   damn_schematics_I,
+        TeachedRecipes  =   Make Vehicle Window; Make Vehicle Viewport,
+        ReplaceOnUse    =   WindowSchematics,
+        Tooltip = Tooltip_item_damnWindowSchematics,
+        StaticModel = damnCraftSchematicsSM,
+        WorldStaticModel = damnCraftWindowSchematicsWI,
+    }
+
+    item DoorSchematics
+    {
+        DisplayCategory = SkillBook,
+        Weight  =   0.1,
+        Type    =   Literature,
+        DisplayName =   Vehicle Schematics Vol.2 - Doors,
+        Icon    =   damn_schematics_II,
+        TeachedRecipes  =   Make Vehicle Door; Make Vehicle Hatch,
+        ReplaceOnUse    =   DoorSchematics,
+        Tooltip = Tooltip_item_damnDoorSchematics,
+        StaticModel = damnCraftSchematicsSM,
+        WorldStaticModel = damnCraftDoorSchematicsWI,
+    }
+
+    item HoodSchematics
+    {
+        DisplayCategory = SkillBook,
+        Weight  =   0.1,
+        Type    =   Literature,
+        DisplayName =   Vehicle Schematics Vol.3 - Hood,
+        Icon    =   damn_schematics_II,
+        TeachedRecipes  =   Make Vehicle Hood,
+        ReplaceOnUse    =   HoodSchematics,
+        Tooltip = Tooltip_item_damnHoodSchematics,
+        StaticModel = damnCraftSchematicsSM,
+        WorldStaticModel = damnCraftHoodSchematicsWI,
+    }
+
+    item TrunkLidSchematics
+    {
+        DisplayCategory = SkillBook,
+        Weight  =   0.1,
+        Type    =   Literature,
+        DisplayName =   Vehicle Schematics Vol.4 - Trunk Lids,
+        Icon    =   damn_schematics_IV,
+        TeachedRecipes  =   Make Vehicle Trunk Lid; Make Vehicle Lid,
+        ReplaceOnUse    =   TrunkLidSchematics,
+        Tooltip = Tooltip_item_damnTrunkLidSchematics,
+        StaticModel = damnCraftSchematicsSM,
+        WorldStaticModel = damnCraftTrunkLidSchematicsWI,
+    }
+
+    item SeatSchematics
+    {
+        DisplayCategory = SkillBook,
+        Weight  =   0.1,
+        Type    =   Literature,
+        DisplayName =   Vehicle Schematics Vol.5 - Seats,
+        Icon    =   damn_schematics_V,
+        TeachedRecipes  =   Make Military Vehicle Seat; Make Vehicle Seat; Make Seat Frame; Mase Seat Fabric,
+        ReplaceOnUse    =   SeatSchematics,
+        Tooltip = Tooltip_item_damnSeatSchematics,
+        StaticModel = damnCraftSchematicsSM,
+        WorldStaticModel = damnCraftSeatSchematicsWI,
+    }
+
+    item RimSchematics
+    {
+        DisplayCategory = SkillBook,
+        Weight  =   0.1,
+        Type    =   Literature,
+        DisplayName =   Vehicle Schematics Vol.6 - Rims,
+        Icon    =   damn_schematics_VI,
+        TeachedRecipes  =   Make Steel Rim,
+        ReplaceOnUse    =   RimSchematics,
+        Tooltip = Tooltip_item_damnRimSchematics,
+        StaticModel = damnCraftSchematicsSM,
+        WorldStaticModel = damnCraftRimSchematicsWI,
+    }
+
+    item MufflerSchematics
+    {
+        DisplayCategory = SkillBook,
+        Weight  =   0.1,
+        Type    =   Literature,
+        DisplayName =   Vehicle Schematics Vol.7 - Mufflers,
+        Icon    =   damn_schematics_VII,
+        TeachedRecipes  =   Make Vehicle Muffler,
+        ReplaceOnUse    =   MufflerSchematics,
+        Tooltip = Tooltip_item_damnMufflerSchematics,
+        StaticModel = damnCraftSchematicsSM,
+        WorldStaticModel = damnCraftMufflerSchematicsWI,
+    }
+
+    item BumperSchematics
+    {
+        DisplayCategory = SkillBook,
+        Weight  =   0.1,
+        Type    =   Literature,
+        DisplayName =   Vehicle Schematics Vol.8 - Bumpers,
+        Icon    =   damn_schematics_VIII,
+        TeachedRecipes  =   Make Vehicle Bumper,
+        ReplaceOnUse    =   BumperSchematics,
+        Tooltip = Tooltip_item_damnBumperSchematics,
+        StaticModel = damnCraftSchematicsSM,
+        WorldStaticModel = damnCraftBumperSchematicsWI,
+    }
+
+
+	/************************ damnCraft rims ************************/
+
+    item SteelRimSmall
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   7.0,
+        Type    =   Normal,
+        DisplayName =   Small Steel Rim,
+        Icon    =   damn_rim_s,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftSteelRimSmallWI,
+        Tooltip = Tooltip_item_damnSteelRim,
+    }
+
+    item SteelRimMedium
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   9.0,
+        Type    =   Normal,
+        DisplayName =   Medium Steel Rim,
+        Icon    =   damn_rim_m,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 22,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftSteelRimMediumWI,
+        Tooltip = Tooltip_item_damnSteelRim,
+    }
+
+    item SteelRimLarge
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   11.0,
+        Type    =   Normal,
+        DisplayName =   Large Steel Rim,
+        Icon    =   damn_rim_l,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftSteelRimLargeWI,
+        Tooltip = Tooltip_item_damnSteelRim,
+    }
+
+    /************************ damnCraft tire rubber ************************/
+
+    item TireRubberNewSmall
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   3.5,
+        Type    =   Normal,
+        DisplayName =   Small New Tire Rubber,
+        Icon    =   damn_tire_n_s,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftTireRubberNewSmallWI,
+        Tooltip = Tooltip_item_damnTireRubber,
+    }
+
+    item TireRubberUsedSmall
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   3.3,
+        Type    =   Normal,
+        DisplayName =   Small Used Tire Rubber,
+        Icon    =   damn_tire_u_s,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 40,
+        ConditionMax = 80,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftTireRubberUsedSmallWI,
+        Tooltip = Tooltip_item_damnTireRubber,
+    }
+
+    item TireRubberDestroyedSmall
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   2.9,
+        Type    =   Normal,
+        DisplayName =   Small Destroyed Tire Rubber,
+        Icon    =   damn_tire_d_s,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 90,
+        ConditionMax = 25,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftTireRubberDestroyedSmallWI,
+        Tooltip = Tooltip_item_damnTireRubber,
+    }
+
+    item TireRubberNewLarge
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   4.5,
+        Type    =   Normal,
+        DisplayName =   Large New Tire Rubber,
+        Icon    =   damn_tire_n_l,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftTireRubberNewLargeWI,
+        Tooltip = Tooltip_item_damnTireRubber,
+    }
+
+    item TireRubberUsedLarge
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   4.3,
+        Type    =   Normal,
+        DisplayName =   Large Used Tire Rubber,
+        Icon    =   damn_tire_u_l,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 40,
+        ConditionMax = 80,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftTireRubberUsedLargeWI,
+        Tooltip = Tooltip_item_damnTireRubber,
+    }
+
+    item TireRubberDestroyedLarge
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   3.9,
+        Type    =   Normal,
+        DisplayName =   Large Destroyed Tire Rubber,
+        Icon    =   damn_tire_d_l,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 90,
+        ConditionMax = 25,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftTireRubberDestroyedLargeWI,
+        Tooltip = Tooltip_item_damnTireRubber,
+    }
+
+    /************************ damnCraft tire rubber mounts ************************/
+
+    item TireRubberMountSmall
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   1.0,
+        Type    =   Normal,
+        DisplayName =   Small Tire Rubber Mount,
+        Icon    =   damn_tire_m_s,
+        ChanceToSpawnDamaged = 0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftTireRubberMountSmallWI,
+        Tooltip = Tooltip_item_damnTireMount,
+    }
+
+    item TireRubberMountedSmall
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   4.5,
+        Type    =   Normal,
+        DisplayName =   Small Tire Rubber on Mount,
+        Icon    =   damn_tire_md_s,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftTireRubberMountedSmallWI,
+        Tooltip = Tooltip_item_damnTireRubber,
+    }
+
+    item TireRubberMountLarge
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   1.5,
+        Type    =   Normal,
+        DisplayName =   Large Tire Rubber Mount,
+        Icon    =   damn_tire_m_l,
+        ChanceToSpawnDamaged = 0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftTireRubberMountLargeWI,
+        Tooltip = Tooltip_item_damnTireMount,
+    }
+
+    item TireRubberMountedLarge
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   6.0,
+        Type    =   Normal,
+        DisplayName =   Large Tire Rubber on Mount,
+        Icon    =   damn_tire_md_l,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftTireRubberMountedLargeWI,
+        Tooltip = Tooltip_item_damnTireRubber,
+    }
+
+    /************************ damnCraft glass panes ************************/
+
+    item GlassPaneSmall
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   3.0,
+        Type    =   Normal,
+        DisplayName =   Small Vehicle Glass Pane,
+        Icon    =   damn_glass_s,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftGlassPaneSmallWI,
+        Tooltip = Tooltip_item_damnGlassPane,
+    }
+
+    item GlassPaneLarge
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   8.0,
+        Type    =   Normal,
+        DisplayName =   Large Vehicle Glass Pane,
+        Icon    =   damn_glass_l,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftGlassPaneLargeWI,
+        Tooltip = Tooltip_item_damnGlassPane,
+    }
+
+    /************************ damnCraft handles ************************/
+
+    item HandleClassic
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   1.0,
+        Type    =   Normal,
+        DisplayName =   Classic Vehicle Handle,
+        Icon    =   damn_handle_c,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftHandleClassicWI,
+        Tooltip = Tooltip_item_damnHandle,
+    }
+
+    item HandleModern
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   1.3,
+        Type    =   Normal,
+        DisplayName =   Modern Vehicle Handle,
+        Icon    =   damn_handle_c,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftHandleModernWI,
+        Tooltip = Tooltip_item_damnHandle,
+    }
+
+    /************************ damnCraft hinges ************************/
+
+    item HingeSmall
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   1.0,
+        Type    =   Normal,
+        DisplayName =   Small Vehicle Hinge,
+        Icon    =   damn_hinge_s,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftHingeSmallWI,
+        Tooltip = Tooltip_item_damnHinge,
+    }
+
+    item HingeLarge
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   1.4,
+        Type    =   Normal,
+        DisplayName =   Large Vehicle Hinge,
+        Icon    =   damn_hinge_l,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftHingeLargeWI,
+        Tooltip = Tooltip_item_damnHinge,
+    }
+
+    /************************ damnCraft rubber ************************/
+
+    item RubberStrip
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   0.9,
+        Type    =   Normal,
+        DisplayName =   Rubber Strip,
+        Icon    =   damn_rubber_s,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftRubberStripWI,
+        Tooltip = Tooltip_item_damnRubberStrip,
+    }
+
+    /************************ damnCraft seat materials ************************/
+
+    item SeatFabric
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   2.1,
+        Type    =   Normal,
+        DisplayName =   Seat Fabric,
+        Icon    =   damn_fabric_s,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftSeatFabricWI,
+        Tooltip = Tooltip_item_damnSeatFabric,
+    }
+
+    item SeatFoam
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   0.9,
+        Type    =   Normal,
+        DisplayName =   Seat Foam,
+        Icon    =   damn_foam_s,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftSeatFoamWI,
+        Tooltip = Tooltip_item_damnSeatFoam,
+    }
+
+    item SeatFrameSmall
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   2.4,
+        Type    =   Normal,
+        DisplayName =   Small Seat Frame,
+        Icon    =   damn_frame_s,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftSeatFrameSmallWI,
+        Tooltip = Tooltip_item_damnSeatFrame,
+    }
+
+    item SeatFrameLarge
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   4.2,
+        Type    =   Normal,
+        DisplayName =   Large Seat Frame,
+        Icon    =   damn_frame_l,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnCraftSeatFrameLargeWI,
+        Tooltip = Tooltip_item_damnSeatFrame,
+    }
+
+    /************************ damnCraft tire repair kit ************************/
+
+    item TireRepairKit
+    {
+        DisplayCategory = Tool,
+        Weight  =   0.6,
+        Type    =   Normal,
+        DisplayName =   Tire Repair Kit,
+        Icon    =   damn_tirerepair_kit,
+        WorldStaticModel = damnCraftTireRepairKitWI,
+        Tooltip = Tooltip_item_damnTireRepairKit,
+    }
+
+    item TireRepairTools
+    {
+        DisplayCategory = Tool,
+        Weight  =   0.3,
+        Type    =   Normal,
+        DisplayName =   Tire Repair Tools,
+        Icon    =   damn_tirerepair_tools,
+        WorldStaticModel = damnCraftTireRepairToolsWI,
+        Tooltip = Tooltip_item_damnTireRepairTools,
+    }
+
+    item TireRepairRubberSolution
+    {
+        DisplayCategory = Material,
+        Weight  =   0.1,
+        Type    =   Drainable,
+        UseWhileEquipped    =   FALSE,
+        UseDelta    =   0.2,
+        DisplayName =   Tire Repair Rubber Solution,
+        Icon    =   damn_tirerepair_glue,
+        WorldStaticModel = damnCraftTireRepairRubberSolutionWI,
+        Tooltip = Tooltip_item_damnTireRepairSolution,
+    }
+
+    item TireRepairStrips
+    {
+        DisplayCategory = Material,
+        Weight  =   0.2,
+        Type    =   Drainable,
+        UseWhileEquipped    =   FALSE,
+        UseDelta    =   0.2,
+        ConsolidateOption = ContextMenu_Merge,
+        DisplayName =   Tire Repair Strips,
+        Icon    =   damn_tirerepair_strips,
+        WorldStaticModel = damnCraftTireRepairStripsWI,
+        Tooltip = Tooltip_item_damnTireRepairStrips,
+    }
+
+    /************************ damnCraft plastic welding kit ************************/
+
+    item PlasticWeldingKit
+    {
+        DisplayCategory = Tool,
+        Weight  =   1.4,
+        Type    =   Normal,
+        DisplayName =   Plastic Welding Kit,
+        Icon    =   damn_plastic_welder_kit,
+        WorldStaticModel = damnCraftPlasticWeldingKitWI,
+        Tooltip = Tooltip_item_damnPlasticWeldingKit,
+    }
+
+    item PlasticWeldingGun
+    {
+        DisplayCategory = Tool,
+        Weight  =   1.0,
+        DisplayName =   Plastic Welding Gun,
+        DisappearOnUse  =   FALSE,
+        Type    =   Drainable,
+        UseDelta    =   0.0009,
+        ActivatedItem   =   FALSE,
+        cantBeConsolided = TRUE,
+        StaticModel = damnCraftPlasticWeldingGunSM,
+        Icon    =   damn_plastic_welder_gun,
+        WorldStaticModel = damnCraftPlasticWeldingGunWI,
+        Tooltip = Tooltip_item_damnPlasticWeldingGun,
+    }
+
+    item PlasticWeldingStaples100Pack
+    {
+        DisplayCategory = Material,
+        Weight  =   0.3,
+        Type    =   Drainable,
+        UseWhileEquipped    =   FALSE,
+        UseDelta    =   0.1,
+        DisplayName =   Plastic Welding Staples 100 Pack,
+        Icon    =   damn_plastic_welder_staples,
+        WorldStaticModel = damnCraftPlasticWeldingStaplesWI,
+        Tooltip = Tooltip_item_damnPlasticWeldingStaples,
+    }
+
+}

@@ -1,0 +1,9 @@
+module Base
+{
+	model damnOldSmallRoofrackWI
+	{
+		mesh    = WorldItems/damnCommonRoofracks_worldItems|small_roofrackWI,
+		texture = Vehicles/Objects_70dodgeTA_Interior,
+		scale   = 0.6,
+	}
+}

@@ -1,0 +1,304 @@
+module Base
+
+{
+	recipe Make Vehicle Tire
+	{
+		keep Crowbar,
+		damnCraft.SteelRimSmall,
+		damnCraft.TireRubberNewSmall/damnCraft.TireRubberUsedSmall/damnCraft.TireRubberDestroyedSmall,
+
+		Result:76chevyKseriesTire2,
+		Time:700.0,
+		Category:Mechanical,
+		SkillRequired:Mechanics=2,
+		Prop1:Crowbar,
+		OnCreate:DAMN.OnCreate.MakeSmallTire,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Vehicle Hood
+	{
+		keep WeldingMask,
+		BlowTorch=8,
+		damnCraft.HingeLarge=2,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:76chevyKseriesEngineDoor2,
+		Time:1000.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+
+	recipe Make Vehicle Door
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		damnCraft.HandleModern,
+		damnCraft.HingeSmall=2,
+		SmallSheetMetal=2,
+		SheetMetal=2,
+		Screws=2,
+
+		Result:76chevyKseriesFrontDoor2,
+		Time:1000.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=7,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Vehicle Trunk Lid
+	{
+		keep WeldingMask,
+		BlowTorch=8,
+		damnCraft.HingeLarge=2,
+		SheetMetal=2,
+		Screws=2,
+
+		Result:76chevyKseriesTrunkDoor2,
+		Time:1000.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+
+	recipe Make Vehicle Seat
+    	{
+		damnCraft.SeatFabric,
+		damnCraft.SeatFoam=2,
+		damnCraft.SeatFrameLarge,
+		Screws=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+
+		NoBrokenItems:false,
+		Result:76chevyKseriesSeatFront2,
+		Time:800.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:DAMN.OnGiveXP.Mechanics10,
+    }
+
+	recipe Make Vehicle Window
+	{
+		keep Scalpel,
+		damnCraft.GlassPaneSmall,
+
+		Result:76chevyKseriesFrontSideWindow2,
+		Time:300.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:Mechanics=4,
+		Prop1:Scalpel,
+	}
+
+	recipe Make Vehicle Window
+	{
+		keep Scalpel,
+		damnCraft.GlassPaneLarge,
+		damnCraft.RubberStrip=4,
+
+		Result:76chevyKseriesWindshield2,
+		Time:550.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:Mechanics=4,
+		Prop1:Scalpel,
+	}
+
+	recipe Make Vehicle Window
+	{
+		keep Scalpel,
+		damnCraft.GlassPaneLarge,
+		damnCraft.RubberStrip=4,
+
+		Result:76chevyKseriesRearWindshield2,
+		Time:500.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:Mechanics=4,
+		Prop1:Scalpel,
+	}
+
+	recipe Make Front Window Armor
+	{
+		BlowTorch=6,
+       	keep WeldingMask,
+		MetalPipe=3,
+		SmallSheetMetal=2,
+		SheetMetal=1,
+		Screws=2,
+
+		Result:76chevyKseriesFrontWindowArmor,
+		Time:800.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make Windshield Armor
+	{
+		BlowTorch=9,
+      	keep WeldingMask,
+		SmallSheetMetal=3,
+		SheetMetal=2,
+		Screws=2,
+		MetalPipe=6,
+
+		Result:76chevyKseriesWindshieldArmor,
+		Time:1000.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make Vehicle Bumper
+	{
+		BlowTorch=6,
+       	keep WeldingMask,
+		SheetMetal=2,
+		Screws=2,
+
+		Result:76chevyKseriesBumperFront0,
+		Time:1000.0,
+		Category:Armoring,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Vehicle Bumper
+	{
+		BlowTorch=6,
+       	keep WeldingMask,
+		SheetMetal=2,
+		Screws=2,
+
+		Result:76chevyKseriesBumperRear0,
+		Time:1000.0,
+		Category:Armoring,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Vehicle Bullbar
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		SheetMetal=2,
+		MetalPipe=5,
+		Screws=2,
+		76chevyKseriesBumperFront0,
+
+		Result:76chevyKseriesBullbarFrontA,
+		Time:1000.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Vehicle Roofrack
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+		SheetMetal=4,
+		MetalPipe=6,
+		Screws=3,
+
+		Result:76chevyKseriesRoofrack2,
+		Time:1100.0,
+		Category:Mechanical,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Vehicle Rollbar
+	{
+		BlowTorch=9,
+       	keep WeldingMask,
+		SmallSheetMetal=2,
+		MetalPipe=5,
+		Screws=4,
+
+		Result:76chevyKseriesRollbar2,
+		Time:1100.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Vehicle Toolbox
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+		SheetMetal=6,
+		SmallSheetMetal=4,
+		Screws=3,
+
+		Result:76chevyKseriesToolbox2,
+		Time:1100.0,
+		Category:Mechanical,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Vehicle Reinforced Rear Bumper
+	{
+		BlowTorch=3,
+       	keep WeldingMask,
+		SmallSheetMetal=2,
+		76chevyKseriesBumperRear0,
+		Screws=2,
+
+		Result:76chevyKseriesBumperRearA,
+		Time:1000.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make 76 Chevrolet K10 Bed Cover
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=7,
+		MetalPipe=1,
+		Screws=3,
+
+		Result:76chevyK10BedCap2,
+		Time:1500.0,
+		Category:Mechanical,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 76 Chevrolet K20 Bed Cover
+	{
+		BlowTorch=10,
+       	keep WeldingMask,
+		SmallSheetMetal=2,
+		SheetMetal=8,
+		MetalPipe=1,
+		Screws=4,
+
+		Result:76chevyK20BedCap2,
+		Time:1500.0,
+		Category:Mechanical,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+}

@@ -1,0 +1,95 @@
+module Base
+{
+	recipe Repair Tire
+    	{
+		76chevyKseriesTire2,
+		damnCraft.TireRepairTools,
+		damnCraft.TireRepairRubberSolution,
+		damnCraft.TireRepairStrips,
+
+		NoBrokenItems:false,
+		Result:damnCraft.TireRepairTools,
+		Time:250.0,
+		Category:Mechanical,
+		OnCreate:DAMN.OnCreate.RepairTire,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+	fixing Fix CH76 Seat
+	{
+	   Require : 76chevyKseriesSeatFront2,
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+	
+	fixing Fix CH76 Trunk Welding
+	{
+	   Require : 76chevyKseriesTrunkN2;76chevyKseriesTrunkL2;76chevyKseriesRoofrack2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix CH76 Hood Welding
+	{
+	   Require : 76chevyKseriesEngineDoor2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+    	fixing Fix CH76 Hood
+	{
+	   Require : 76chevyKseriesEngineDoor2,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix CH76 Trunk Lid Welding
+    {
+       Require : 76chevyKseriesTrunkDoor2,
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix CH76 Trunk Lid
+	{
+       Require : 76chevyKseriesTrunkDoor2,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix CH76 Door Welding
+	{
+	   Require : 76chevyKseriesFrontDoor2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=3,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=3,
+	}
+
+	fixing Fix CH76 Armor Welding
+    {
+       Require : 76chevyKseriesBullbarFront0;76chevyKseriesBullbarFrontA;76chevyKseriesBumperRear0;76chevyKseriesBumperRearA;76chevyKseriesRollbar2;76chevyKseriesToolbox2;76chevyK20BedCap2;76chevyK10BedCap2;76chevyKseriesFrontWindowArmor;76chevyKseriesWindshieldArmor,
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 0.75,
+
+       Fixer : SheetMetal; MetalWelding=4;Mechanics=4,
+       Fixer : SmallSheetMetal=2; MetalWelding=4;Mechanics=4,
+    }
+
+}

@@ -1,0 +1,324 @@
+module Base
+
+{
+
+	/************************ Tires ************************/  
+
+	item 76chevyKseriesTire2
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        VehicleType =   2,
+        DisplayName	=	76 Chevrolet K Series Tire,
+        Icon	=	CH76_wheel,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.9,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.01,
+        ConditionLowerOffroad = 0.01,
+        MechanicsItem = TRUE,
+	    WorldStaticModel = 76chevyKseriesTire2WI,
+    }
+
+	/************************ Trunks ************************/
+
+    item 76chevyKseriesTrunkN2
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   1.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName =   no,
+        Icon    =   na,
+        MaxCapacity = 105,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item 76chevyKseriesTrunkL2
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   1.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName =   no,
+        Icon    =   na,
+        MaxCapacity = 130,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item 76chevyKseriesRoofrack2
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   13.0,
+        Type    =   Normal,
+        DisplayName =   76 Chevrolet K Series Roofrack,
+        Icon    =   CH76_roofr,
+        MaxCapacity = 65,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesRoofrackWI,
+    }
+
+	/************************* Doors ************************/
+
+    item 76chevyKseriesFrontDoor2
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	13.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName	=	76 Chevrolet K Series Front Door,
+        Icon	=	CH76_doorf,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesFrontDoorWI,
+    }
+
+	/************************ Carmor ************************/
+
+	item 76chevyKseriesFrontWindowArmor
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName	=	76 Chevrolet K Series Front Window Armor,
+        Icon	=	CH76_winfa,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesFrontWindowArmorWI,
+    }
+
+	item 76chevyKseriesWindshieldArmor
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	16.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName	=	76 Chevrolet K Series Windshield Armor,
+        Icon	=	CH76_windfa,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesWindshieldArmorWI,
+    }
+
+    /************************ Hood ************************/
+
+    item 76chevyKseriesEngineDoor2
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	13.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName	=	76 Chevrolet K Series Hood,
+        Icon	=	CH76_hood,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesEngineDoorWI,
+    }
+
+    /************************ Trunk Lid ************************/
+
+    item 76chevyKseriesTrunkDoor2
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	11.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName	=	76 Chevrolet K Series Trunk Lid,
+        Icon	=	CH76_trunkl,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesTrunkDoorWI,
+    }
+
+    /************************ Seats ************************/
+
+     item 76chevyKseriesSeatFront2
+     {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	14.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName	=	76 Chevrolet K Series Front Seat,
+        Icon	=	CH76_seatf,
+        MaxCapacity = 25,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesSeatFrontWI,
+     }
+
+     /************************ Bullbars ************************/
+
+	item 76chevyKseriesBumperFront0
+      {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	8.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName	=	76 Chevrolet K Series Front Bumper,
+        Icon	=	CH76_bumpf0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesBumperFront0WI,
+      }
+
+    item 76chevyKseriesBullbarFrontA
+      {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   12.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName =   76 Chevrolet K Series Bullbar,
+        Icon    =   CH76_bumpA,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesBullbarFrontAWI,
+      }
+
+    item 76chevyKseriesBumperRear0
+      {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   8.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName =   76 Chevrolet K Series Rear Bumper,
+        Icon    =   CH76_bumpr0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesBumperRear0WI,
+      }
+
+      item 76chevyKseriesBumperRearA
+      {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   10.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName =   76 Chevrolet K Series Reinforced Rear Bumper,
+        Icon    =   CH76_bumpr0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesBumperRear0WI,
+      }
+
+     /************************ Windows ************************/
+
+	item 76chevyKseriesWindshield2
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	9.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName	=	76 Chevrolet K Series Windshield,
+        Icon	=	CH76_windf,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesWindshieldWI,
+    }
+
+	item 76chevyKseriesFrontSideWindow2
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	4.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName	=	76 Chevrolet K Series Front Side Window,
+        Icon	=	CH76_winf,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesFrontSideWindowWI,
+    }
+
+    item 76chevyKseriesRearWindshield2
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   7.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName =   76 Chevrolet K Series Rear Windshield,
+        Icon    =   CH76_windr,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesRearWindshieldWI,
+    }
+
+    /************************ Bed Extras ************************/
+
+    item 76chevyKseriesRollbar2
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   12.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName =   76 Chevrolet K Series Rollbar,
+        Icon    =   CH76_rollbar,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesRollbarWI,
+    }
+
+    item 76chevyKseriesToolbox2
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   8.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName =   76 Chevrolet K Series Toolbox,
+        Icon    =   CH76_toolbox,
+        ConditionMax = 100,
+        MaxCapacity = 30,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyKseriesToolboxWI,
+    }
+
+    item 76chevyK10BedCap2
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   15.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName =   76 Chevrolet K10 Bed Cap,
+        Icon    =   CH76_cap,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyK10BedCapWI,
+    }
+
+    item 76chevyK20BedCap2
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   18.0,
+        Type    =   Normal,
+        VehicleType =   2,
+        DisplayName =   76 Chevrolet K20 Bed Cap,
+        Icon    =   CH76_cap,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 76chevyK20BedCapWI,
+    }
+
+}

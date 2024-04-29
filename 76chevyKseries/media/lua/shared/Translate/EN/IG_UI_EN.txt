@@ -1,0 +1,20 @@
+IG_UI_EN = {
+	IGUI_VehicleName76chevyK10 = "'76 Chevrolet K10",
+	IGUI_VehicleName76chevyK20 = "'76 Chevrolet K20",
+	IGUI_VehicleName76chevyK20BigRed = "'76 Chevrolet K20 Big Red",
+
+	IGUI_VehiclePartCH76BumperFront = "Front Bumper",
+	IGUI_VehiclePartCH76BumperRear = "Rear Bumper",
+	IGUI_VehiclePartCH76SpareTireBed = "Spare Tire",
+	IGUI_VehiclePartCH76SpareTireRoof = "Spare Tire",
+
+	IGUI_VehiclePartCH76WindshieldArmor = "Windshield Armor",
+	IGUI_VehiclePartCH76WindshieldRearArmor = "Rear Windshield Armor",
+	IGUI_VehiclePartCH76WindowFrontLeftArmor = "Front Left Window Armor",
+	IGUI_VehiclePartCH76WindowFrontRightArmor = "Front Right Window Armor",
+
+	IGUI_VehiclePartCH76Trunk = "Trunk Storage",
+	IGUI_VehiclePartCH76Roofrack = "Roofrack",
+	IGUI_VehiclePartCH76TruckBedExtras = "TruckBed Addon",
+	IGUI_VehiclePartCH76TruckBedCover = "TruckBed Cap",
+}

@@ -1,0 +1,106 @@
+This mod is not a LUA mod and require a manual installation by replacing an existing Project Zomboid File
+
+This mod works on Steam or GOG version
+Should works on any OS
+This mod is Client side and is [b]not required to be installed on server[/b]
+This mod works and have been tested in both [b]SP and MP[/b]
+
+HOW THIS WORKS ??
+Project Zomboid render a 190x190 tiles zone around the player
+This mod reduce the size of this zone and avoid loading not necessary square
+This way you can expect 40% to 70% perfs increase
+
+HOW TO INSTALL ON WINDOWS
+- locate your 'Project Zomboid' installation folder (by default should be something like: "C:\Program Files (x86)\Steam\steamapps\common\ProjectZomboid")
+
+- open the "\zombie\iso" folder
+
+ex:
+Program Files (x86
+└───Steam
+    └───steamapps
+        └───common
+            └───ProjectZomboid
+                └───zombie
+                    └───iso
+
+
+- in another window open the mod folder (by default should be: "C:\Program Files (x86)\Steam\steamapps\workshop\content\108600\3022543997\mods\BetterFPS\media\")
+
+
+ex:
+Program Files (x86
+└───Steam
+    └───steamapps
+        └───workshop
+            └───content
+                └───108600
+                    └───3022543997
+                        └───mods
+                            └───BetterFPS
+                                └───media
+
+
+- select the most relevant folder for you config (this is just obvious preset, you can use 4k even in 1080p this will still increase FPS):
+ * \PotatoPC\ if you use a resolution lower than 1080p
+ * \1080p\ if your use a 1080p resolution
+ * \4k\ if you use a resolution bigger than 1080p
+
+* \Original\ is a recompiled version of the original file
+
+Inside each folder there is another folder \zombie\iso\
+
+- copy this folder (or the content)
+
+- replace the existing folder (or file) from Project Zomboid
+
+ex: 
+replace "C:\Program Files (x86)\Steam\steamapps\common\ProjectZomboid\zombie"
+with "C:\Program Files (x86)\Steam\steamapps\workshop\content\108600\3022543997\mods\BetterFPS\media\1080p\zombie"
+
+This will overwrite the original file with patched one
+
+HOW TO INSTALL ON OSX
+
+- Copy content of this mod archive 'zombie\iso' into your Project Zomboid game folder 'zombie\iso' (replace existing files)
+- GoToFolder > ~/Library/Application Support/Steam/
+
+
+
+└───Application Support
+    └───Steam
+        └───common
+            └───ProjectZomboid
+
+
+- Right-click > Show Package Content > Open Content
+  
+   
+        Java
+          └───zombie
+                    └───iso
+                            
+
+
+- select the most relevant folder for you config (this is just obvious preset, you can use 4k even in 1080p this will still increase FPS):
+ * \PotatoPC\ if you use a resolution lower than 1080p
+ * \1080p\ if your use a 1080p resolution
+ * \4k\ if you use a resolution bigger than 1080p
+
+* \Original\ is a recompiled version of the original file
+
+Inside each folder there is another folder \zombie\iso\
+
+- copy this folder (or the content)
+
+- replace the existing folder (or file) from Project Zomboid
+
+
+- launch the game
+- Enjoy
+
+
+Like my mods ?
+https://ko-fi.com/alree
+
+

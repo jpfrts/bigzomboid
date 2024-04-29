@@ -1,0 +1,44 @@
+module Base
+{
+	model 75grandPrixTire1WI
+	{
+		mesh    = WorldItems/damnCommonTires_worldItems|75pontiac_tire1WI,
+		texture = Vehicles/Objects_75grandPrix_Wheel1,
+		scale   = 0.6,
+	}
+
+	model 75grandPrixTire2WI
+	{
+		mesh    = WorldItems/damnCommonTires_worldItems|75pontiac_tire2WI,
+		texture = Vehicles/Objects_75grandPrix_Wheel1,
+		scale   = 0.6,
+	}
+
+	model DG70WheelWI
+	{
+		mesh    = WorldItems/damnCommonTires_worldItems|challenger_tire_nWI,
+		texture = Vehicles/Objects_70dodge_Wheel_Interior,
+		scale   = 0.6,
+	}
+
+	model CUDAWheelWI
+	{
+		mesh    = WorldItems/damnCommonTires_worldItems|cuda_tireWI,
+		texture = Vehicles/Objects_70barracuda_Wheel,
+		scale   = 0.6,
+	}
+	
+	model CAM69WheelWI
+	{
+		mesh    = WorldItems/damnCommonTires_worldItems|69camaro_tire_nWI,
+		texture = Vehicles/Objects_69camaro_Wheel,
+		scale   = 0.6,
+	}
+
+	model fordCVPITireWI
+	{
+		mesh    = WorldItems/damnCommonTires_worldItems|vic92_tireWI,
+		texture = Vehicles/Objects_92fordCVPI_Wheel,
+		scale   = 0.6,
+	}
+}

@@ -1,0 +1,13 @@
+require "Items/ProceduralDistributions"
+-- 90bmwE30Tire3
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, "Base.90bmwE30Tire3");
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, 0.06);
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, "Base.90bmwE30Tire3");
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, 0.05);
+table.insert(ProceduralDistributions.list["GarageTools"].items, "Base.90bmwE30Tire3");
+table.insert(ProceduralDistributions.list["GarageTools"].items, 0.05);
+-- 90bmwE30mTire3
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, "Base.90bmwE30mTire3");
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, 0.04);
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, "Base.90bmwE30mTire3");
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, 0.03);

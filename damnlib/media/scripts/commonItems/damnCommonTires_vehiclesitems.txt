@@ -1,0 +1,119 @@
+module Base
+
+{
+
+	/************************ Pontiac ************************/  
+
+	item 75grandPrixR215Tire1
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	13.0,
+        Type	=	Normal,
+        VehicleType =   1,
+        DisplayName	=	Pontiac Rally II R15 Tire,
+        Icon	=	PRX75_tire1,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.6,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.04,
+        ConditionLowerOffroad = 0.09,
+        MechanicsItem = TRUE,
+	    WorldStaticModel = 75grandPrixTire1WI,
+    }
+
+    item 75grandPrixR217Tire3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   12.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   Pontiac Rally II R17 Tire,
+        Icon    =   PRX75_tire2,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.8,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.05,
+        ConditionLowerOffroad = 0.10,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 75grandPrixTire2WI,
+    }
+
+    /************************ Muscle Trio ************************/  
+
+    item CUDAtire3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   10.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   70 Barracuda Tire,
+        Icon    =   CUDAtire1,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.7,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.10,
+        ConditionLowerOffroad = 0.20,
+        MechanicsItem = TRUE,
+        WorldStaticModel = CUDAWheelWI,
+    }
+
+    item DodgeRTtire3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   10.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   70 Challenger Tire,
+        Icon    =   DG70tire1,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.6,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.10,
+        ConditionLowerOffroad = 0.20,
+        MechanicsItem = TRUE,
+        WorldStaticModel = DG70WheelWI,
+    }
+
+    item CamaroSStire3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   10.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   69 Camaro Tire,
+        Icon    =   CAM69tire,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.65,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.10,
+        ConditionLowerOffroad = 0.20,
+        MechanicsItem = TRUE,
+        WorldStaticModel = CAM69WheelWI,
+    }
+
+    /************************ CVPI ************************/  
+
+    item fordCVPITire1
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   15.0,
+        Type    =   Normal,
+        VehicleType =   1,
+        DisplayName =   Ford CVPI Tire,
+        Icon    =   CVPI92_tire,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.6,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.06,
+        ConditionLowerOffroad = 0.10,
+        MechanicsItem = TRUE,
+        WorldStaticModel = fordCVPITireWI,
+    }
+
+}

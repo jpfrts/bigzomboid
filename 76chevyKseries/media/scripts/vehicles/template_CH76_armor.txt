@@ -1,0 +1,216 @@
+module Base
+{
+	model 76chevyKseriesWindshielda
+    	{
+        mesh = vehicles/Vehicles_76chevyKseries_Body|76chevy_windshield_frontA,
+		shader = damn_vehicle_shader,
+        scale = 0.1,
+    	}
+
+    model 76chevyKseriesWindowfla
+    	{
+        mesh = vehicles/Vehicles_76chevyKseries_Body|76chevy_window_flA,
+		shader = damn_vehicle_shader,
+        scale = 0.1,
+        static = FALSE,
+    	}
+
+    model 76chevyKseriesWindowfra
+    	{
+        mesh = vehicles/Vehicles_76chevyKseries_Body|76chevy_window_frA,
+		shader = damn_vehicle_shader,
+        scale = 0.1,
+        static = FALSE,
+    	}
+
+	template vehicle CH76Armor
+		{
+		part CH76WindshieldArmor
+        	{
+
+			model CH76winda
+				{
+                		file = 76chevyKseriesWindshielda,
+				}
+
+			area = Engine,
+			category = bodywork,
+			specificItem = false,
+			itemType = Base.76chevyKseriesWindshieldArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 550,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = CH76.InstallComplete.WindshieldArmor,
+                	requireInstalled = Windshield,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+						time = 600,
+						skills = Mechanics:4,
+						recipes = Intermediate Mechanics,
+			            test = Vehicles.UninstallTest.Default,
+						complete = CH76.UninstallComplete.WindshieldArmor,
+            		}
+
+            		lua
+            		{
+					create = CH76.Create.WindshieldArmor,
+					init = CH76.Init.WindshieldArmor,
+					}
+		}
+
+		part CH76WindowFrontLeftArmor
+        {
+
+			model CH76leftWindowa
+				{
+                		file = 76chevyKseriesWindowfla,
+				}
+
+			area = SeatFrontLeft,
+			category = bodywork,
+			parent = DoorFrontLeft,
+			specificItem = false,
+			itemType = Base.76chevyKseriesFrontWindowArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 500,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = CH76.InstallComplete.WindowFrontLeftArmor,
+                	requireInstalled = WindowFrontLeft,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 550,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+		            test = Vehicles.UninstallTest.Default,
+					complete = CH76.UninstallComplete.WindowFrontLeftArmor,
+            		}
+
+            		lua
+            		{
+					create = CH76.Create.WindowFrontLeftArmor,
+					init = CH76.Init.WindowFrontLeftArmor,
+					}
+		}
+
+		part CH76WindowFrontRightArmor
+        {
+
+			model CH76rightWindowa
+				{
+                		file = 76chevyKseriesWindowfra,
+				}
+
+			area = SeatFrontRight,
+			category = bodywork,
+			parent = WindowFrontRight,
+			specificItem = false,
+			itemType = Base.76chevyKseriesFrontWindowArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 500,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = CH76.InstallComplete.WindowFrontRightArmor,
+                	requireInstalled = WindowFrontRight,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 550,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+		            test = Vehicles.UninstallTest.Default,
+					complete = CH76.UninstallComplete.WindowFrontRightArmor,
+            		}
+
+            		lua
+            		{
+					create = CH76.Create.WindowFrontRightArmor,
+					init = CH76.Init.WindowFrontRightArmor,
+					}
+		}
+	}
+}

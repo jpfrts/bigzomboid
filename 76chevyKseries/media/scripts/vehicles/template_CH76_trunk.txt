@@ -1,0 +1,81 @@
+module Base
+{
+	template vehicle CH76TrunkCompartmentK10
+	{
+		part CH76Trunk
+		{
+			category = bodywork,
+			area = TruckBed,
+			itemType = Base.76chevyKseriesTrunkN,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = CH76.ContainerAccess.Trunk,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part TruckBed
+		{
+			category = nodisplay,
+			area = TruckBed,
+			itemType = nil,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = CH76.ContainerAccess.Trunk,
+			}
+			lua
+			{
+				create = DAMN.Create.Blank,
+			}
+		}
+	}
+
+	template vehicle CH76TrunkCompartmentK20
+	{
+		part CH76Trunk
+		{
+			category = bodywork,
+			area = TruckBed,
+			itemType = Base.76chevyKseriesTrunkL,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = CH76.ContainerAccess.Trunk,
+			}
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		part TruckBed
+		{
+			category = nodisplay,
+			area = TruckBed,
+			itemType = nil,
+			mechanicRequireKey = true,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = CH76.ContainerAccess.Trunk,
+			}
+			lua
+			{
+				create = DAMN.Create.Blank,
+			}
+		}
+	}
+}
+

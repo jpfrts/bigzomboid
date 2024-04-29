@@ -1,0 +1,129 @@
+module Base
+{
+	model 76chevyKseriesTire2WI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_wheelWI,
+		texture = Vehicles/Objects_76chevyKseries_Wheel,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesFrontDoorWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_door_flWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesWindshieldArmorWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_windshield_frontAWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesFrontWindowArmorWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_window_flAWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesEngineDoorWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_hoodWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesTrunkDoorWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevyK20_trunkLidWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesSeatFrontWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_seat_flWI,
+		texture = Vehicles/Objects_76chevyKseries_Interior,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesBumperFront0WI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_bumper_front0WI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesBullbarFrontAWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_bullbar_frontAWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesBumperRear0WI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevyK20_bumper_rearWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesWindshieldWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_windshield_frontWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesFrontSideWindowWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_window_flWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesRearWindshieldWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_windshield_rearWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesRoofrackWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_roofrackWI,
+		texture = Vehicles/Objects_76chevyKseries_Interior,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesRollbarWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_rollbarWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyKseriesToolboxWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevy_toolboxWI,
+		texture = Vehicles/Objects_76chevyKseries_Interior,
+		scale   = 0.6,
+	}
+
+	model 76chevyK10BedCapWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevyK10_bedcapWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+	model 76chevyK20BedCapWI
+	{
+		mesh    = vehicles/Vehicles_76chevyKseries_Objects|76chevyK20_bedcapWI,
+		texture = Vehicles/Objects_76chevyKseries_Shell,
+		scale   = 0.6,
+	}
+
+}

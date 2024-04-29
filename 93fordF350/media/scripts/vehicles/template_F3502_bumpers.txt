@@ -1,0 +1,230 @@
+module Base
+{
+	model 93fordF350FrontBumper0
+	{
+		mesh = vehicles/Vehicles_93fordF350_Body|f350_bumper_front0,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+	model 93fordF350FrontBullbarA
+	{
+		mesh = vehicles/Vehicles_93fordF350_Body|f350_bullbar_frontA,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+	model 93fordF350RearBumper0
+	{
+		mesh = vehicles/Vehicles_93fordF350_Body|f350_bumper_rear0,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+	template vehicle F3502BumperRear
+	{
+		part F3502BumperRear
+        	{
+
+			model RearBumper0
+				{
+                		file = 93fordF350RearBumper0,
+				}
+
+				area = TruckBed,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.93fordF350BumperRear0,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = F3502.InstallComplete.BumperRear,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = F3502.UninstallComplete.BumperRear,
+            		}
+
+            		lua
+            		{
+					create = F3502.Create.BumperRear,
+					init = F3502.Init.BumperRear,
+					}
+		}
+	}
+
+	template vehicle F3502Bumpers
+	{
+		part F3502BumperFront
+        	{
+
+			model FrontBumper0
+				{
+                		file = 93fordF350FrontBumper0,
+				}
+
+			model FrontBullbarA
+				{
+                		file = 93fordF350FrontBullbarA,
+				}
+
+				area = Engine,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.93fordF350BumperFront0;Base.93fordF350BullbarFrontA,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = F3502.InstallComplete.BumperFront,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = F3502.UninstallComplete.BumperFront,
+            		}
+
+            		lua
+            		{
+					create = F3502.Create.BumperFront,
+					init = F3502.Init.BumperFront,
+					}
+		}
+
+		template! = F3502BumperRear,
+
+	}
+
+	template vehicle F3502Bullbars
+	{
+		part F3502BumperFront
+        	{
+
+			model FrontBullbarA
+				{
+                		file = 93fordF350FrontBullbarA,
+				}
+
+			model FrontBumper0
+				{
+                		file = 93fordF350FrontBumper0,
+				}
+
+				area = Engine,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.93fordF350BullbarFrontA;Base.93fordF350BumperFront0,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = F3502.InstallComplete.BullbarFront,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = F3502.UninstallComplete.BullbarFront,
+            		}
+
+            		lua
+            		{
+					create = F3502.Create.BullbarFront,
+					init = F3502.Init.BullbarFront,
+					}
+			}
+
+			template! = F3502BumperRear,
+		}
+}

@@ -1,0 +1,9 @@
+require "Items/ProceduralDistributions"
+-- 93fordF350Tire2
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, "Base.93fordF350Tire2");
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, 0.04);
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, "Base.93fordF350Tire2");
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, 0.06);
+-- 93fordF350DoubleTires2
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, "Base.93fordF350DoubleTires2");
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, 0.08);

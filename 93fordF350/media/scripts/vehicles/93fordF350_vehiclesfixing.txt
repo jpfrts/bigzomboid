@@ -1,0 +1,111 @@
+module Base
+{
+	recipe Repair Tire
+    	{
+		93fordF350Tire2,
+		damnCraft.TireRepairTools,
+		damnCraft.TireRepairRubberSolution,
+		damnCraft.TireRepairStrips,
+
+		NoBrokenItems:false,
+		Result:damnCraft.TireRepairTools,
+		Time:250.0,
+		Category:Mechanical,
+		OnCreate:DAMN.OnCreate.RepairTire,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Repair Tire
+    	{
+		93fordF350DoubleTires2,
+		damnCraft.TireRepairTools,
+		damnCraft.TireRepairRubberSolution=2,
+		damnCraft.TireRepairStrips=2,
+
+		NoBrokenItems:false,
+		Result:damnCraft.TireRepairTools,
+		Time:250.0,
+		Category:Mechanical,
+		OnCreate:DAMN.OnCreate.RepairTire,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+	fixing Fix F3502 Seat
+	{
+	   Require : 93fordF350SeatFront2;93fordF350SeatRear2,
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+	
+	fixing Fix F3502 Trunk Welding
+	{
+	   Require : 93fordF350TrunkN2;93fordF350TrunkL2;93fordF350Toolbox2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix F3502 Hood Welding
+	{
+	   Require : 93fordF350EngineDoor2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+    	fixing Fix F3502 Hood
+	{
+	   Require : 93fordF350EngineDoor2,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix F3502 Trunk Lid Welding
+    {
+       Require : 93fordF350TrunkDoor2,
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix F3502 Trunk Lid
+	{
+       Require : 93fordF350TrunkDoor2,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix F3502 Door Welding
+	{
+	   Require : 93fordF350FrontDoor2;93fordF350RearDoor2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=3,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=3,
+	}
+
+	fixing Fix F3502 Armor Welding
+    {
+       Require : 93fordF350BumperFront0;93fordF350BullbarFrontA;93fordF350BumperRear0;93fordF350FrontWindowArmor;93fordF350RearWindowArmor;93fordF350WindshieldArmor;93fordF350SideSteps2;93fordF350SideStepsLong2,
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 0.75,
+
+       Fixer : SheetMetal; MetalWelding=4;Mechanics=4,
+       Fixer : SmallSheetMetal=2; MetalWelding=4;Mechanics=4,
+    }
+
+}

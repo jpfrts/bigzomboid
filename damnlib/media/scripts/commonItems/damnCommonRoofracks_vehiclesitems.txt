@@ -1,0 +1,23 @@
+module Base
+
+{
+
+	/************************ Old Roofracks ************************/  
+
+	item OldSmallRoofrack3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   11.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   Small Vintage Roofrack,
+        Icon    =   damn_roofrack1,
+        MaxCapacity = 55,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+        WorldStaticModel = damnOldSmallRoofrackWI,
+    }
+
+}
