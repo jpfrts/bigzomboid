@@ -1,0 +1,18 @@
+IG_UI_CH = {
+	IGUI_VehicleNameBicycleRegular = "普通自行车",
+	IGUI_VehicleNameBicycleRegularScrap = "普通自行车 (废料)",
+	IGUI_VehicleNameBicycleMTB = "越野自行车",
+	IGUI_VehicleNameBicycleMTBScrap = "越野自行车 (废料)",
+	IGUI_VehicleNameBicycleTrailer = "自行车拖车"
+	IGUI_VehiclePartSeatFront= "鞍",
+	IGUI_VehiclePartSuspensionFront = "前叉",
+	IGUI_VehiclePartSuspensionRear = "后叉",
+	IGUI_VehiclePartBrakeFront = "前制动",
+	IGUI_VehiclePartBrakeRear = "后刹车",
+	IGUI_VehiclePartTireFront = "前轮胎",
+	IGUI_VehiclePartTireRear = "后轮胎",
+	IGUI_VehiclePartBikeBasket = "篮子",
+	IGUI_VehiclePartTrunk = "后机架",
+	IGUI_VehiclePartHeadlight = "大灯",
+	IGUI_VehiclePartCatAccessories = "配件",
+}

@@ -1,0 +1,12 @@
+Sandbox_ES = {
+    Sandbox_Bicycles = "Bicicletas",
+    Sandbox_Bicycles_Exhaustion = "Agotamiento",
+    Sandbox_Bicycles_ExhaustionDrain = "Drenaje de Acondicionamiento Físico",
+    Sandbox_Bicycles_Exhaustion_tooltip = "Determina si tu personaje se cansará mientras pedalea. ",
+    Sandbox_Bicycles_FitnessExperience = "Experiencia de Acondicionamiento Físico"
+    Sandbox_Bicycles_ExpGain = "Ganancia de experiencia",
+    Sandbox_Bicycles_FitnessExperience_tooltip = "Determina si tu personaje recibirá experiencia física mientras pedalea. ",
+	Sandbox_Bicycles_Warmth = "Calor",
+	Sandbox_Bicycles_WarmthGain = "Ganancia de calor",
+	Sandbox_Bicycles_Warmth_tooltip = "Determina si tu personaje se calentará al pedalear. ",
+}

@@ -1,0 +1,12 @@
+Sandbox_FR = {
+    Sandbox_Bicycles = "Vélos",
+    Sandbox_Bicycles_Exhaustion = "Épuisement",
+    Sandbox_Bicycles_ExhaustionDrain = "Drain de remise en forme",
+    Sandbox_Bicycles_Exhaustion_tooltip = "Détermine si votre personnage se fatiguera en pédalant.",
+    Sandbox_Bicycles_FitnessExperience = "Expérience de remise en forme"
+    Sandbox_Bicycles_ExpGain = "Gain d'expérience",
+    Sandbox_Bicycles_FitnessExperience_tooltip = "Détermine si votre personnage recevra de l'expérience de fitness lorsqu'il pédalera. ",
+	Sandbox_Bicycles_Warmth = "Chaleur",
+	Sandbox_Bicycles_WarmthGain = "Gain de chaleur",
+	Sandbox_Bicycles_Warmth_tooltip = "Détermine si votre personnage s'échauffera en pédalant. ",
+}

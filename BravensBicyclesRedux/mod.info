@@ -1,0 +1,8 @@
+name=Braven's Bicycles Redux
+id=BB_Bicycles
+require=BB_Utils
+poster=poster.png
+icon=icon.png
+authors=BitBraven
+modversion=1.3.0
+description=This mod adds working bicycles to the game!

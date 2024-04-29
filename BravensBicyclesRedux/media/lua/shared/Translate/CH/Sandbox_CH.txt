@@ -1,0 +1,12 @@
+Sandbox_CH = {
+    Sandbox_Bicycles = "自行车",
+    Sandbox_Bicycles_Exhaustion = "精疲力竭",
+    Sandbox_Bicycles_ExhaustionDrain = "耐力消耗",
+    Sandbox_Bicycles_Exhaustion_tooltip = "确定您的角色在踩踏板时是否会感到疲倦。 ",
+    Sandbox_Bicycles_FitnessExperience = "健身体验"
+    Sandbox_Bicycles_ExpGain = "经验获取",
+    Sandbox_Bicycles_FitnessExperience_tooltip = "确定您的角色在踩踏板时是否会获得健身经验。 ",
+	Sandbox_Bicycles_Warmth = "温暖",
+	Sandbox_Bicycles_WarmthGain = "温暖增益",
+	Sandbox_Bicycles_Warmth_tooltip = "确定您的角色是否会因踩踏板而热身。 ",
+}

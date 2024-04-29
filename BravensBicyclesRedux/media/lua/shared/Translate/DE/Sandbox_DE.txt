@@ -1,0 +1,12 @@
+Sandbox_DE = {
+    Sandbox_Bicycles = "Fahrräder",
+    Sandbox_Bicycles_Exhaustion = "Erschöpfung",
+    Sandbox_Bicycles_ExhaustionDrain = "Ausdauerentzug",
+    Sandbox_Bicycles_Exhaustion_tooltip = "Legt fest, ob Ihr Charakter beim Treten müde wird. ",
+    Sandbox_Bicycles_FitnessExperience = "Fitness-Erlebnis"
+    Sandbox_Bicycles_ExpGain = "Erfahrungsgewinn",
+    Sandbox_Bicycles_FitnessExperience_tooltip = "Legt fest, ob Ihr Charakter beim Treten Fitness-Exp erhält. ",
+	Sandbox_Bicycles_Warmth = "Wärme",
+	Sandbox_Bicycles_WarmthGain = "Wärmegewinn",
+	Sandbox_Bicycles_Warmth_tooltip = "Legt fest, ob Ihr Charakter durch das Treten aufgewärmt wird. ",
+}

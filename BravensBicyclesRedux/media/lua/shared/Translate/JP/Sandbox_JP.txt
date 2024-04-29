@@ -1,0 +1,12 @@
+Sandbox_JP = {
+    Sandbox_Bicycles = "自転車",
+    Sandbox_Bicycles_Exhaustion = "疲労困憊",
+    Sandbox_Bicycles_ExhaustionDrain = "エンデュランスドレイン",
+    Sandbox_Bicycles_Exhaustion_tooltip = "キャラクターがペダルをこぐときに疲れるかどうかを決定します。 ",
+    Sandbox_Bicycles_FitnessExperience = "フィットネス体験"
+    Sandbox_Bicycles_ExpGain = "経験値の獲得",
+    Sandbox_Bicycles_FitnessExperience_tooltip = "キャラクターがペダルをこぐときにフィットネス経験値を受け取るかどうかを決定します。 ",
+	Sandbox_Bicycles_Warmth = "温もり",
+	Sandbox_Bicycles_WarmthGain = "暖かさの増加",
+	Sandbox_Bicycles_Warmth_tooltip = "ペダルをこぐことでキャラクターがウォームアップするかどうかを決定します。 ",
+}

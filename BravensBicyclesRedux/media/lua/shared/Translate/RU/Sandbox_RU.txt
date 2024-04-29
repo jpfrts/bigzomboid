@@ -1,0 +1,12 @@
+Sandbox_RU = {
+    Sandbox_Bicycles = "Велосипеды",
+    Sandbox_Bicycles_Exhaustion = "истощение",
+    Sandbox_Bicycles_ExhaustionDrain = "Истощение выносливости",
+    Sandbox_Bicycles_Exhaustion_tooltip = "Определяет, устанет ли ваш персонаж при вращении педалей. ",
+    Sandbox_Bicycles_FitnessExperience = "Фитнес-опыт"
+    Sandbox_Bicycles_ExpGain = "Получение опыта",
+    Sandbox_Bicycles_FitnessExperience_tooltip = "Определяет, будет ли ваш персонаж получать опыт фитнеса, когда он крутит педали. ",
+	Sandbox_Bicycles_Warmth = "Тепло",
+	Sandbox_Bicycles_WarmthGain = "Увеличение тепла",
+	Sandbox_Bicycles_Warmth_tooltip = "Определяет, будет ли ваш персонаж разогреваться от педалирования. ",
+}
