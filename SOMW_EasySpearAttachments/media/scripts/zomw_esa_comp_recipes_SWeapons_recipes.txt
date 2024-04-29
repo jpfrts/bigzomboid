@@ -1,0 +1,36 @@
+module SWeapons
+{
+
+	imports
+	{
+		Base,
+	}
+
+    recipe Attach Scrap Shiv on Spear
+    {
+        SpearCrafted/PlankSpear,
+        ScrapShiv,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:SpearScrapShiv,
+		Sound:SpearBinding,		
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+
+    recipe Attach Sharpened Screwdriver on Spear
+    {
+        SpearCrafted/PlankSpear,
+        SharpenedScrewdriver,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:SpearSharpenedScrewdriver,
+		Sound:SpearBinding,			
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+	
+
+}

@@ -1,0 +1,99 @@
+ItemName_RU = {
+
+	/*** Vanilla rename ***/	
+	ItemName_Base.WoodAxe = "Лесорубный топор",	
+	ItemName_Base.Axe = "Пожарный топор",	
+	ItemName_Base.HandAxe = "Ручной топор",	
+	
+	ItemName_Base.Shovel = "Штыковая лопата",		
+	ItemName_Base.Shovel2 = "Совковая лопата",
+
+	ItemName_Base.TreeBranch = "Ветка",		
+
+	ItemName_Base.Sledgehammer = "Кувалда",	
+	ItemName_Base.Sledgehammer2 = "Кувалда с длинной рукоятью",	
+
+	ItemName_Base.HandScythe = "Садовый серп",	
+
+	ItemName_Base.SpearCrafted = "Деревянное копьё",	
+
+	/*** Other Items ***/	
+	ItemName_SOMW.GardenShears = "Садовые ножницы",	
+
+	/*** Short Blunt ***/	
+	ItemName_SOMW.LShapedLugWrench = "Г-образный ключ",
+	ItemName_SOMW.ShortTreeBranch = "Короткая ветка",		
+	ItemName_SOMW.HalfPlank = "Половина доски",
+	ItemName_SOMW.HalfPlankNails = "Половина доски с гвоздями",
+	ItemName_SOMW.MeatTenderizer = "Молоток для отбивания мяса",	
+	ItemName_SOMW.FireplacePoker = "Кочерга",		
+
+	/*** Long Blunt ***/
+	ItemName_SOMW.AluminumBaseballBat = "Алюминиевая бейсбольная бита",		
+	ItemName_SOMW.BaseballBatWire = "Бейсбольная бита в проволоке",	
+	ItemName_SOMW.BaseballBatBarbedWire = "Бейсбольная бита в колючей проволоке",	
+	ItemName_SOMW.BaseballBatScrews = "Бейсбольная бита с болтами",	
+	
+	ItemName_SOMW.WalkingCane = "Трость",		
+	
+	ItemName_SOMW.LongLeadPipe = "Длинная свинцовая труба",	
+	ItemName_SOMW.LongMetalPipe = "Длинная металлическая труба",		
+	ItemName_SOMW.LongMetalBar = "Длинный металлический прут",		
+
+	/*** Short Blade ***/
+	ItemName_SOMW.HandFile = "Напильник",		
+	ItemName_SOMW.MilitaryKnife = "Армейский нож",	
+	ItemName_SOMW.CombatKnife = "Боевой нож",		
+	ItemName_SOMW.CampyKnife = "Туристический нож",	
+	ItemName_SOMW.ButterflyKnife = "Нож-бабочка",	
+	ItemName_SOMW.SharpTrowel = "Острый садовый совок",	
+	
+	/*** Long Blade ***/	
+	ItemName_SOMW.GardenScythe = "Садовая коса",		
+	ItemName_SOMW.MilitaryMachete = "Армейское мачете",	
+	ItemName_SOMW.HookMachete = "Крюк-мачете",		
+	ItemName_SOMW.GardenShearBlade = "Лезвие садовых ножниц",			
+	ItemName_SOMW.Kukri = "Кукри",	
+
+	/*** Axes ***/
+	ItemName_SOMW.IceAxe = "Ледоруб",		
+	ItemName_SOMW.AxeHammer = "Кровельный топор",	
+	ItemName_SOMW.UniAxe = "Плотницкий топор",
+	ItemName_SOMW.CampingHatchet = "Туристический топорик",
+	ItemName_SOMW.EntrenchingShovel = "Окопная лопата",
+	
+	ItemName_SOMW.ShovelAxe = "Импровизированный металлический топор",
+	ItemName_SOMW.Shovel2Axe = "Импровизированный металлический топор",		
+
+	/*** Spears ***/	
+	ItemName_SOMW.ShovelSpear = "Импровизированное металлическое копьё",	
+	ItemName_SOMW.Shovel2Spear = "Импровизированное металлическое копьё",		
+	
+	ItemName_SOMW.SpearChippedStone = "Каменное копьё",	
+	
+	ItemName_SOMW.SpearCampyKnife = "Копьё с туристическим ножом",	
+	ItemName_SOMW.SpearMilitaryKnife = "Копьё с армейским ножом",		
+	ItemName_SOMW.SpearCombatKnife = "Копьё с боевым ножом",	
+	ItemName_SOMW.SpearMilitaryMachete = "Копьё с армейским мачете",	
+	ItemName_SOMW.SpearSharpTrowel = "Копьё с острым садовым совком",
+	ItemName_SOMW.SpearGardenShearBlade = "Копьё с лезвием садовых ножниц",	
+    ItemName_SOMW.SpearKukri = "Копьё с кукри",  		
+	
+	/*** Plank Spears ***/
+	ItemName_SOMW.PlankSpear = "Деревянное копьё",	
+	ItemName_SOMW.PlankSpearKnife = "Копьё с кухонным ножом",	
+	ItemName_SOMW.PlankSpearBreadKnife = "Копьё с ножом для хлеба",		
+	ItemName_SOMW.PlankSpearHuntingKnife = "Копьё с охотничьим ножом",	
+	ItemName_SOMW.PlankSpearIcePick = "Копьё с пешней для льда",		
+	ItemName_SOMW.PlankSpearHandFork = "Копьё с садовой вилкой",		
+	ItemName_SOMW.PlankSpearScrewdriver = "Копьё с отвёрткой",	
+	ItemName_SOMW.PlankSpearCampyKnife = "Копьё с туристическим ножом",	
+	ItemName_SOMW.PlankSpearMilitaryKnife = "Копьё с армейским ножом",	
+	ItemName_SOMW.PlankSpearCombatKnife = "Копьё с боевым ножом",
+	ItemName_SOMW.PlankSpearMilitaryMachete = "Копьё с армейским мачете",		
+	ItemName_SOMW.PlankSpearMachete = "Копьё с мачете",
+	ItemName_SOMW.PlankSpearSharpTrowel = "Копьё с острым садовым совком",	
+	ItemName_SOMW.PlankSpearGardenShearBlade = "Копьё с лезвием садовых ножниц",	
+    ItemName_SOMW.PlankSpearKukri = "Копьё с кукри", 
+
+}

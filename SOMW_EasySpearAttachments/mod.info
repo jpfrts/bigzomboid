@@ -1,0 +1,7 @@
+name=Simple Overhaul: Melee Weapons (SOMW) - Easy Spear Attachments
+id=SimpleOverhaulMeleeWeapons_EasySpearAttachments
+modversion=1
+description=Adds recipes which allow you to attach weapons to spears with Twine or Leather Strips.
+poster=poster.png
+require=SimpleOverhaulMeleeWeapons
+	

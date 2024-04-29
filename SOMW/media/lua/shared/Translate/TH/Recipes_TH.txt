@@ -1,0 +1,49 @@
+Recipes_TH = {
+
+	Recipe_Make_Shovel_Axe = "สร้างขวานเหล็กประยุกต์จากพลั่ว",	
+	Recipe_Make_Shovel_Spear = "สร้างหอกเหล็กประยุกต์จากพลั่ว",	
+
+	Recipe_Make_Sharp_Trowel = "สร้างเกรียงแหลม",
+
+	Recipe_Disassemble_Garden_Shears = "แยกชิ้นส่วนกรรไกรแต่งสวน",	
+	
+	Recipe_Saw_Off_Pipe = "เลื่อยท่อ",		
+	Recipe_Saw_Off_Bar = "เลื่อยแท่งเหล็ก",	
+
+	Recipe_Break_Plank_In_Half = "หักเป็นสองส่วน",	
+	Recipe_Saw_Plank_In_Half = "เลื่อยเป็นสองส่วน",
+	
+	Recipe_Break_Tree_Branch_In_Half = "หักเป็นสองส่วน",		
+	Recipe_Saw_Tree_Branch_In_Half = "เลื่อยเป็นสองส่วน",
+	Recipe_Cut_Tree_Branch_In_Half = "ตัดเป็นสองส่วน",	
+
+	Recipe_Build_Spiked_Half_Plank = "สร้างไม้กระดานสั้นฝังตะปู",	
+	
+	Recipe_Build_Wired_Baseball_Bat = "สร้างไม้เบสบอลหุ้มลวด",	
+	Recipe_Build_Barbed_Wired_Baseball_Bat = "สร้างไม้เบสบอลหุ้มลวดหนาม",	
+	Recipe_Build_Bolted_Baseball_Bat = "สร้างไม้เบสบอลฝังน็อต",		
+
+	Recipe_Create_Spear = "สร้างหอก",
+	Recipe_Create_Plank_Spear = "สร้างหอก",
+	
+	Recipe_Convert_Into_Plank_Spear = "แปลงเป็นหอก",
+	
+	Recipe_Create_Spear_Chipped_Stone = "สร้างหอกปลายหินบิ่น",
+
+	Recipe_Attach_Combat_Knife_to_Spear = "ติดมีดรบที่หอก",
+	Recipe_Attach_Military_Knife_to_Spear = "ติดมีดพกทหารที่หอก",
+	Recipe_Attach_Camping_Knife_to_Spear = "ติดมีดเดินป่าที่หอก",
+	Recipe_Attach_Military_Machete_to_Spear = "ติดมีดมาเชเต้ทหารที่หอก",
+	Recipe_Attach_Sharp_Trowel_to_Spear = "ติดเกรียงแหลมที่หอก",
+	Recipe_Attach_Garden_Shear_Blade_to_Spear = "ติดกรรไกรแต่งสวนที่หอก",
+	Recipe_Attach_Kukri_to_Spear = "ติดมีดกุรข่าที่หอก",
+	
+	Recipe_Reclaim_Combat_Knife_from_Spear = "นำมีดรบออกจากหอก",
+	Recipe_Reclaim_Military_Knife_from_Spear = "นำมีดพกทหารออกจากหอก",
+	Recipe_Reclaim_Camping_Knife_from_Spear = "นำมีดเดินป่าออกจากหอก",
+	Recipe_Reclaim_Military_Machete_from_Spear = "นำมีดมาเชเต้ทหารออกจากหอก",
+	Recipe_Reclaim_Sharp_Trowel_from_Spear = "นำเกรียงแหลมออกจากหอก",
+	Recipe_Reclaim_Garden_Shear_Blade_from_Spear = "นำกรรไกรแต่งสวนออกจากหอก",
+	Recipe_Reclaim_Kukri_from_Spear = "นำมีดกุรข่าออกจากหอ",	
+	
+}

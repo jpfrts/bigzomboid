@@ -1,0 +1,49 @@
+Recipes_IT = {
+
+	Recipe_Make_Shovel_Axe = "Crea ascia di metallo improvvisata da pala",	
+	Recipe_Make_Shovel_Spear = "Crea lancia di metallo improvvisata da pala",	
+
+	Recipe_Make_Sharp_Trowel = "Crea spatola affilata",
+
+    Recipe_Disassemble_Garden_Shears = "Smonta cesoie da giardino",
+	
+	Recipe_Saw_Off_Pipe = "Sega tubo",		
+	Recipe_Saw_Off_Bar = "Sega barra",	
+
+	Recipe_Break_Plank_In_Half = "Spezza a metà",	
+	Recipe_Saw_Plank_In_Half = "Sega a metà",
+	
+	Recipe_Break_Tree_Branch_In_Half = "Spezza a metà",		
+	Recipe_Saw_Tree_Branch_In_Half = "Sega a metà",
+	Recipe_Cut_Tree_Branch_In_Half = "Taglia a metà",	
+
+	Recipe_Build_Spiked_Half_Plank = "Crea mezza asse chiodata",	
+	
+	Recipe_Build_Wired_Baseball_Bat = "Crea mazza da baseball con cavo",	
+	Recipe_Build_Barbed_Wired_Baseball_Bat = "Crea mazza da baseball spinata",	
+	Recipe_Build_Bolted_Baseball_Bat = "Crea mazza da baseball imbullonata",		
+
+	Recipe_Create_Spear = "Crea lancia",
+	Recipe_Create_Plank_Spear = "Crea lancia",
+	
+	Recipe_Convert_Into_Plank_Spear = "Converti in lancia",
+	
+	Recipe_Create_Spear_Chipped_Stone = "Crea lancia di pietra",
+
+	Recipe_Attach_Combat_Knife_to_Spear = "Fissa coltello da combattimento su lancia",
+	Recipe_Attach_Military_Knife_to_Spear = "Fissa coltello militare su lancia",
+	Recipe_Attach_Camping_Knife_to_Spear = "Fissa coltello da campeggio su lancia",
+	Recipe_Attach_Military_Machete_to_Spear = "Fissa machete militare su lancia",
+	Recipe_Attach_Sharp_Trowel_to_Spear = "Fissa spatola affilata su lancia",
+    Recipe_Attach_Garden_Shear_Blade_to_Spear = "Fissa lama di cesoie da giardino su lancia",
+    Recipe_Attach_Kukri_to_Spear = "Fissa kukri su lancia",
+	
+	Recipe_Reclaim_Combat_Knife_from_Spear = "Recupera coltello da combattimento dalla lancia",
+	Recipe_Reclaim_Military_Knife_from_Spear = "Recupera coltello militare dalla lancia",
+	Recipe_Reclaim_Camping_Knife_from_Spear = "Recupera coltello da campeggio dalla lancia",
+	Recipe_Reclaim_Military_Machete_from_Spear = "Recupera machete militare dalla lancia",
+	Recipe_Reclaim_Sharp_Trowel_from_Spear = "Recupera spatola affilata dalla lancia",
+    Recipe_Reclaim_Garden_Shear_Blade_from_Spear = "Recupera lama di cesoie da giardino dalla lancia",
+    Recipe_Reclaim_Kukri_from_Spear = "Recupera kukri dalla lancia",
+	
+}

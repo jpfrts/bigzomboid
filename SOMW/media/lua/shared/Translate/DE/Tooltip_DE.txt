@@ -1,0 +1,7 @@
+Tooltip_EN = {
+
+	Tooltip_NotForCarService = "Nicht fur die Autowartung geeignet.",
+	Tooltip_CanBeUsedAsClawHammer = "Kann als Hammer oder Nagelzieher verwendet werden.",
+	Tooltip_GardenSheersCanBeDisassembled = "Kann zerlegt und als Waffe verwendet werden.",
+	
+}

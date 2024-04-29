@@ -1,0 +1,14 @@
+Sandbox_AR = {
+
+	Sandbox_SOMW = "Simple Overhaul: Melee Weapons",
+
+	Sandbox_SOMW_CondLowerChanceMultiplier = "Condición de armas cuerpo a cuerpo. Multiplicador de probabilidad más bajo:",
+	Sandbox_SOMW_CondLowerChanceMultiplier_tooltip = "Reduce la posibilidad de romper armas cuerpo a cuerpo según el multiplicador especificado.<br>Por ejemplo: elegir un valor de "3" significa que el arma se romperá aproximadamente 3 veces más lento.",
+		
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option1 = "1",	
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option2 = "2",			
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option3 = "3",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option4 = "5",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option5 = "10",	
+	
+}

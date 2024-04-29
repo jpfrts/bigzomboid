@@ -1,0 +1,6 @@
+Tooltip_PL = {
+	Tooltip_NotForCarService = "Nie nadaje sie do serwisowania samochodow.",
+	Tooltip_CanBeUsedAsClawHammer = "Moze sluzyc jako mlotek lub sciagacz do gwozdzi.",
+	Tooltip_GardenSheersCanBeDisassembled = "Mozna go zdemontowac i wykorzystac jako bron.",
+	
+}

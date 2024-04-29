@@ -1,0 +1,99 @@
+ItemName_TR = {
+
+	/*** Vanilla rename ***/	
+	ItemName_Base.WoodAxe = "Ahþap Balta",	
+	ItemName_Base.Axe = "Yangýn Balta",	
+	ItemName_Base.HandAxe = "El Baltasý",	
+	
+	ItemName_Base.Shovel = "Kürek",		
+	ItemName_Base.Shovel2 = "Kürek",
+
+	ItemName_Base.TreeBranch = "Uzun Aðaç Dalý",		
+
+	ItemName_Base.Sledgehammer = "Balyoz",	
+	ItemName_Base.Sledgehammer2 = "Uzun Saplý Balyoz",	
+
+	ItemName_Base.HandScythe = "El Týrpaný",	
+
+	ItemName_Base.SpearCrafted = "Mýzrak",	
+
+	/*** Other Items ***/	
+	ItemName_SOMW.GardenShears = "Bahçe makasý",
+
+	/*** Short Blunt ***/	
+	ItemName_SOMW.LShapedLugWrench = "L-Þekilli Bijon Anahtarý",
+	ItemName_SOMW.ShortTreeBranch = "Kýsa Aðaç Dalý",		
+	ItemName_SOMW.HalfPlank = "Kýsa Tahta",
+	ItemName_SOMW.HalfPlankNails = "Çivili Kýsa Tahta",	
+    ItemName_SOMW.MeatTenderizer = "Et tokmaðý",    
+    ItemName_SOMW.FireplacePoker = "Þömine Pokeri",
+	
+	/*** Long Blunt ***/
+    ItemName_SOMW.AluminumBaseballBat = "Alüminyum Beyzbol Sopasý",    
+	ItemName_SOMW.BaseballBatWire = "Telli Beyzbol Sopasý",	
+	ItemName_SOMW.BaseballBatBarbedWire = "Dikenli Telli Beyzbol Sopasý",	
+	ItemName_SOMW.BaseballBatScrews = "Cývatalý Beyzbol Sopasý",	
+
+    ItemName_SOMW.WalkingCane = "Baston",  
+	
+	ItemName_SOMW.LongLeadPipe = "Uzun Kurþun Boru",	
+	ItemName_SOMW.LongMetalPipe = "Uzun Metal boru",		
+	ItemName_SOMW.LongMetalBar = "Uzun Metal Çubuk",		
+
+	/*** Short Blade ***/
+	ItemName_SOMW.HandFile = "El Eðesi",		
+	ItemName_SOMW.MilitaryKnife = "Askeri Býçak",	
+	ItemName_SOMW.CombatKnife = "Savaþ Býçaðý",		
+	ItemName_SOMW.CampyKnife = "Kamp Býçaðý",	
+	ItemName_SOMW.ButterflyKnife = "Kelebek",	
+	ItemName_SOMW.SharpTrowel = "Keskin Bahce Kuresi",	
+	
+	/*** Long Blade ***/	
+	ItemName_SOMW.GardenScythe = "Bahçe Týrpaný",		
+	ItemName_SOMW.MilitaryMachete = "Askeri Pala",	
+	ItemName_SOMW.HookMachete = "Kancalý Pala",		
+    ItemName_SOMW.GardenShearBlade = "Bahçe Makasý Býçaðý",            
+    ItemName_SOMW.Kukri = "Gurka kamasý",   
+	
+	/*** Axes ***/
+	ItemName_SOMW.IceAxe = "Buz Baltasý",		
+	ItemName_SOMW.AxeHammer = "Çatý Kaplama Baltasý",	
+	ItemName_SOMW.UniAxe = "Marangoz Balta",
+	ItemName_SOMW.CampingHatchet = "Kamp Baltasý",
+	ItemName_SOMW.EntrenchingShovel = "Siper Açma Küreði",
+	
+	ItemName_SOMW.ShovelAxe = "Doðaçlama Metal Balta",
+	ItemName_SOMW.Shovel2Axe = "Doðaçlama Metal Balta",		
+
+	/*** Spears ***/	
+	ItemName_SOMW.ShovelSpear = "Doðaçlama Metal Mýzrak",	
+	ItemName_SOMW.Shovel2Spear = "Doðaçlama Metal Mýzrak",		
+	
+	ItemName_SOMW.SpearChippedStone = "Taþ Mýzrak",	
+	
+	ItemName_SOMW.SpearCampyKnife = "Kamp Býçaklý Mýzrak",	
+	ItemName_SOMW.SpearMilitaryKnife = "Askeri Býçaklý Mýzrak",		
+	ItemName_SOMW.SpearCombatKnife = "Savaþ Býçaklý Mýzrak",	
+	ItemName_SOMW.SpearMilitaryMachete = "Askeri Palalý Mýzrak",	
+	ItemName_SOMW.SpearSharpTrowel = "Keskin Bahce Kuresi Mýzrak",
+    ItemName_SOMW.SpearGardenShearBlade = "Bahçe Makasý Býçaklý Mýzrak",
+    ItemName_SOMW.SpearKukri = "Kukri ile mýzrak", 
+	
+	/*** Plank Spears ***/
+	ItemName_SOMW.PlankSpear = "Mýzrak",	
+	ItemName_SOMW.PlankSpearKnife = "Býçaklý Mýzrak",	
+	ItemName_SOMW.PlankSpearBreadKnife = "Ekmek Býçaklý Mýzrak",		
+	ItemName_SOMW.PlankSpearHuntingKnife = "Av Býçaklý Mýzrak",	
+	ItemName_SOMW.PlankSpearIcePick = "Buz Kýrýcýlý Mýzrak",		
+	ItemName_SOMW.PlankSpearHandFork = "Çatallý Mýzrak",		
+	ItemName_SOMW.PlankSpearScrewdriver = "Tornavidalý Mýzrak",	
+	ItemName_SOMW.PlankSpearCampyKnife = "Kamp Býçaklý Mýzrak",	
+	ItemName_SOMW.PlankSpearMilitaryKnife = "Askeri Býçaklý Mýzrak",	
+	ItemName_SOMW.PlankSpearCombatKnife = "Savaþ Býçaklý Mýzrak",
+	ItemName_SOMW.PlankSpearMachete = "Palalý Mýzrak",
+	ItemName_SOMW.PlankSpearMilitaryMachete = "Askeri Palalý Mýzrak",		
+	ItemName_SOMW.PlankSpearSharpTrowel = "Keskin Bahce Kuresi Mýzrak",	
+    ItemName_SOMW.PlankSpearGardenShearBlade = "Bahçe Makasý Býçaklý Mýzrak",     
+    ItemName_SOMW.PlankSpearKukri = "Kukri ile mýzrak",    
+
+}

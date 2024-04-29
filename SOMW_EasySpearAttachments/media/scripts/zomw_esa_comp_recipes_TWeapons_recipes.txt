@@ -1,0 +1,45 @@
+module TWeapons
+{
+
+	imports
+	{
+		Base,
+	}
+
+	recipe Attach Tactical Knife to Spear
+    {
+        SpearCrafted/PlankSpear,
+        TacticalKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:SpearTKnife,
+		Time 		: 200,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+	
+	recipe Attach Tactical Machete to Spear
+    {
+        SpearCrafted/PlankSpear,
+        TacticalMachete,
+        Twine/LeatherStrips/LeatherStripsDirty=2,
+
+        Result:SpearTMachete,
+		Time 		: 250,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }	
+	
+	recipe Attach Ninja Sword to Spear
+    {
+        SpearCrafted/PlankSpear,
+        TacticalBlade,
+        Twine/LeatherStrips/LeatherStripsDirty=2,
+
+        Result:SpearTBlade,
+		Time 		: 250,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }	
+	
+}

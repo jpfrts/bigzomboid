@@ -1,0 +1,49 @@
+Recipes_JP = {
+
+	Recipe_Make_Shovel_Axe = "即席金属斧を作る",
+	Recipe_Make_Shovel_Spear = "即席金属槍を作る",
+
+	Recipe_Make_Sharp_Trowel = "こてを改造して短剣にする",
+
+	Recipe_Disassemble_Garden_Shears = "植木鋏を分解する",	
+
+	Recipe_Saw_Off_Pipe = "金属パイプを半分に切り分ける",
+	Recipe_Saw_Off_Bar = "金属棒を半分に切り分ける",
+
+	Recipe_Break_Plank_In_Half = "木板を半分に割る",
+	Recipe_Saw_Plank_In_Half = "木板を半分に切り分ける",
+
+	Recipe_Break_Tree_Branch_In_Half = "木の枝(長)を半分に割る",
+	Recipe_Saw_Tree_Branch_In_Half = "木の枝(長)を半分に切り分ける",
+	Recipe_Cut_Tree_Branch_In_Half = "木の枝(長)を半分に切り分ける",
+
+	Recipe_Build_Spiked_Half_Plank = "釘板(短)を作る",
+
+	Recipe_Build_Wired_Baseball_Bat = "ワイヤーバットを作る",
+	Recipe_Build_Barbed_Wired_Baseball_Bat = "有刺鉄線を作る",
+	Recipe_Build_Bolted_Baseball_Bat = "ネジバットを作る",
+
+	Recipe_Create_Spear = "槍を制作する",
+	Recipe_Create_Plank_Spear = "槍を制作する",
+
+	Recipe_Convert_Into_Plank_Spear = "槍に作り替える",
+
+	Recipe_Create_Spear_Chipped_Stone = "石の槍を作る",
+
+	Recipe_Attach_Combat_Knife_to_Spear = "槍にコンバットナイフを取り付ける",
+	Recipe_Attach_Military_Knife_to_Spear = "槍に軍用ナイフを取り付ける",
+	Recipe_Attach_Camping_Knife_to_Spear = "槍にキャンピングナイフを取り付ける",
+	Recipe_Attach_Military_Machete_to_Spear = "槍に軍用マチェットを取り付ける",
+	Recipe_Attach_Sharp_Trowel_to_Spear = "鋭いこてを槍に取り付ける",
+	Recipe_Attach_Garden_Shear_Blade_to_Spear = "分解した植木鋏を槍に取り付ける",
+	Recipe_Attach_Kukri_to_Spear = "ククリを槍に取り付ける",
+	
+	Recipe_Reclaim_Combat_Knife_from_Spear = "槍からコンバットナイフを取り外す",
+	Recipe_Reclaim_Military_Knife_from_Spear = "槍から軍用ナイフを取り外す",
+	Recipe_Reclaim_Camping_Knife_from_Spear = "槍からキャンピングナイフを取り外す",
+	Recipe_Reclaim_Military_Machete_from_Spear = "槍から軍用マチェットを取り外す",
+	Recipe_Reclaim_Sharp_Trowel_from_Spear = "槍から鋭いこてを取り外す",
+	Recipe_Reclaim_Garden_Shear_Blade_from_Spear = "槍から分解した植木鋏を取り外す",
+	Recipe_Reclaim_Kukri_from_Spear = "槍からククリを取り外す",
+	
+}

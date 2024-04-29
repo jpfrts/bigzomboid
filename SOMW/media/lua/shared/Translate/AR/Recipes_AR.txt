@@ -1,0 +1,49 @@
+Recipes_AR = {
+
+	Recipe_Make_Shovel_Axe = "Hacer hacha de metal improvisada",	
+	Recipe_Make_Shovel_Spear = "Hacer lanza de metal improvisada",	
+	
+	Recipe_Make_Sharp_Trowel = "Hacer una paleta afilada",	
+
+	Recipe_Disassemble_Garden_Shears = "Desmontar las tijeras de jardin",	
+
+	Recipe_Saw_Off_Pipe = "Corta la tubería",		
+	Recipe_Saw_Off_Bar = "Corta la varilla",	
+
+	Recipe_Break_Plank_In_Half = "Partir a la mitad",	
+	Recipe_Saw_Plank_In_Half = "Aserrar a la mitad",
+	
+	Recipe_Break_Tree_Branch_In_Half = "Partir a la mitad",		
+	Recipe_Saw_Tree_Branch_In_Half = "Aserrar a la mitad",
+	Recipe_Cut_Tree_Branch_In_Half = "Cortar a la mitad",	
+
+	Recipe_Build_Spiked_Half_Plank = "Fabricar medio tablón con clavos",	
+	
+	Recipe_Build_Wired_Baseball_Bat = "Fabricar bate de béisbol con alambre",	
+	Recipe_Build_Barbed_Wired_Baseball_Bat = "Fabricar bate de béisbol con alambre de púas",	
+	Recipe_Build_Bolted_Baseball_Bat = "Fabricar bate de béisbol con tornillos",		
+
+	Recipe_Create_Spear = "Hacer lanza",
+	Recipe_Create_Plank_Spear = "Hacer lanza",
+	
+	Recipe_Convert_Into_Plank_Spear = "Convertir en lanza",
+	
+	Recipe_Create_Spear_Chipped_Stone = "Añadir piedra afilada a la lanza",
+
+	Recipe_Attach_Combat_Knife_to_Spear = "Añadir cuchillo de combate a la lanza",
+	Recipe_Attach_Military_Knife_to_Spear = "Añadir cuchillo militar a lanza",
+	Recipe_Attach_Camping_Knife_to_Spear = "Añadir cuchillo para acampar a la lanza",
+	Recipe_Attach_Military_Machete_to_Spear = "Añadir machete militar a la lanza",
+	Recipe_Attach_Sharp_Trowel_to_Spear = "Añadir paleta afilada a la lanza",	
+	Recipe_Attach_Garden_Shear_Blade_to_Spear = "Añadir cuchilla de tijeras de jardin a la lanza",
+	Recipe_Attach_Kukri_to_Spear = "Añadir kukri a la lanza",
+	
+	Recipe_Reclaim_Combat_Knife_from_Spear = "Recuperar cuchillo de combate de la lanza",
+	Recipe_Reclaim_Military_Knife_from_Spear = "Recuperar cuchillo militar de la lanza",
+	Recipe_Reclaim_Camping_Knife_from_Spear = "Recuperar cuchillo de camping de la lanza",
+	Recipe_Reclaim_Military_Machete_from_Spear = "Recuperar machete militar de la lanza",
+	Recipe_Reclaim_Sharp_Trowel_from_Spear = "Recuperar paleta afilada de la lanza",
+	Recipe_Reclaim_Garden_Shear_Blade_from_Spear = "Recuperar cuchilla de tijeras de jardin de la lanza",
+	Recipe_Reclaim_Kukri_from_Spear = "Recuperar kukri de la lanza",
+	
+}

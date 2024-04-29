@@ -1,0 +1,55 @@
+Recipes_DE = {
+
+	Recipe_Make_Shovel_Axe = "Erstellt eine improvisierte Metallaxt aus Schaufel",	
+	Recipe_Make_Shovel_Spear = "Erstellt einen improvisierten Metallspeer aus einer Schaufel",	
+
+	Recipe_Make_Sharp_Trowel = "Stelle eine Scharfe Kelle her",
+
+	Recipe_Disassemble_Garden_Shears = "Zerlegen Sie die Gartenschere",	
+
+	Recipe_Saw_Off_Pipe = "Sagt ein Rohr ab",		
+	Recipe_Saw_Off_Bar = "Sagt eine Stange ab",	
+
+	Recipe_Break_Plank_In_Half = "Bricht ein Brett in die Halfte",	
+	Recipe_Saw_Plank_In_Half = "Sagt ein Brett in die Halfte",
+	
+	Recipe_Break_Tree_Branch_In_Half = "Bricht einen Ast in die Halfte",		
+	Recipe_Saw_Tree_Branch_In_Half = "Sagt einen Ast in die Halfte",
+	Recipe_Cut_Tree_Branch_In_Half = "Schneidet einen Ast in die Halfte",	
+
+	Recipe_Build_Spiked_Half_Plank = "Erstellt eine mit Stacheln versehene halbe Planke",	
+	
+	Recipe_Build_Wired_Baseball_Bat = "Erstellt einen Draht umwickelter Baseballschlager",	
+	Recipe_Build_Barbed_Wired_Baseball_Bat = "Erstellt einen Stacheldraht umwickelter Baseballschlager",	
+	Recipe_Build_Bolted_Baseball_Bat = "Erstellt einen mit Schrauben versehenen Baseballschlager",		
+
+	Recipe_Create_Spear = "Erstellt einen Speer",
+	Recipe_Create_Plank_Spear = "Erstellt einen Speer",
+	
+	Recipe_Convert_Into_Plank_Spear = "Erstellt einen Speer",
+	
+	Recipe_Create_Spear_Chipped_Stone = "Erstellt einen Steinspeer",
+
+	Recipe_Attach_Combat_Knife_to_Spear = "Kampfmesser am Speer befestigen",
+	Recipe_Attach_Military_Knife_to_Spear = "Militärmesser am Speer befestigen",
+	Recipe_Attach_Camping_Knife_to_Spear = "Campingmesser am Speer befestigen",
+	Recipe_Attach_Military_Machete_to_Spear = "Militärmachete am Speer befestigen",
+	Recipe_Attach_Sharp_Trowel_to_Spear = "Scharfe Kelle am Speer befestigen",
+	Recipe_Attach_Garden_Shear_Blade_to_Spear = "Gartenscherenklinge am Speer befestigen",
+	Recipe_Attach_Kukri_to_Spear = "Kukri am Speer befestigen",
+	
+	Recipe_Reclaim_Combat_Knife_from_Spear = "Kampfmesser von Speer abbauen",
+	Recipe_Reclaim_Military_Knife_from_Spear = "Militärmesser von Speer abbauen",
+	Recipe_Reclaim_Camping_Knife_from_Spear = "Campingmesser von Speer abbauen",
+	Recipe_Reclaim_Military_Machete_from_Spear = "Militärische Machete von Speer abbauen",
+	Recipe_Reclaim_Sharp_Trowel_from_Spear = "Scharfe Kelle von Speer abbauen",
+	Recipe_Reclaim_Garden_Shear_Blade_from_Spear = "Gartenscherenklinge von Speer abbauen",
+	Recipe_Reclaim_Kukri_from_Spear = "Kukri von Speer abbauen",	
+	
+}
+
+
+
+
+
+

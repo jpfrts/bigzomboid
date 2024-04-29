@@ -1,0 +1,7 @@
+Tooltip_PTBR = {
+
+	Tooltip_NotForCarService = "Nao e adequado para manutencao de veiculos.",
+	Tooltip_CanBeUsedAsClawHammer = "Pode ser usado como martelo ou para arrancar pregos.",
+	Tooltip_GardenSheersCanBeDisassembled = "Pode ser desmontado e usado como arma.",
+	
+}

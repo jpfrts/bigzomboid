@@ -1,0 +1,14 @@
+Sandbox_RU = {
+
+	Sandbox_SOMW = "Simple Overhaul: Melee Weapons",
+
+	Sandbox_SOMW_CondLowerChanceMultiplier = "МНОЖИТЕЛЬ ШАНСА ПОЛОМКИ ОРУЖИЯ БЛИЖНЕГО БОЯ:",
+	Sandbox_SOMW_CondLowerChanceMultiplier_tooltip = "Уменьшает вероятность поломки оружия ближнего боя на указанный множитель.<br>Например: выбор значения "3" означает, что оружие будет ломаться примерно в 3 раза медленнее.",
+	
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option1 = "1",	
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option2 = "2",			
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option3 = "3",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option4 = "5",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option5 = "10",	
+	
+}

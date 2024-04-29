@@ -1,0 +1,49 @@
+Recipes_CN = {
+
+	Recipe_Make_Shovel_Axe = "用铁锹制作金属斧头",	
+	Recipe_Make_Shovel_Spear = "用铁锹制作金属长矛",	
+
+	Recipe_Make_Sharp_Trowel = "製作尖頭園藝鏟",
+
+	Recipe_Disassemble_Garden_Shears = "拆解园艺剪",	
+
+	Recipe_Saw_Off_Pipe = "锯短管子",		
+	Recipe_Saw_Off_Bar = "锯短棒子",	
+
+	Recipe_Break_Plank_In_Half = "掰开两半",	
+	Recipe_Saw_Plank_In_Half = "锯开两半",
+	
+	Recipe_Break_Tree_Branch_In_Half = "掰开两半",		
+	Recipe_Saw_Tree_Branch_In_Half = "锯开两半",
+	Recipe_Cut_Tree_Branch_In_Half = "切开两半",	
+
+	Recipe_Build_Spiked_Half_Plank = "制作钉刺短木板",	
+	
+	Recipe_Build_Wired_Baseball_Bat = "制作铁丝球棒",	
+	Recipe_Build_Barbed_Wired_Baseball_Bat = "制作倒刺铁丝球棒",	
+	Recipe_Build_Bolted_Baseball_Bat = "制作螺栓球棒",		
+
+	Recipe_Create_Spear = "制作长矛",
+	Recipe_Create_Plank_Spear = "制作长矛",
+	
+	Recipe_Convert_Into_Plank_Spear = "改造成长矛",
+	
+	Recipe_Create_Spear_Chipped_Stone = "制作石矛",
+
+	Recipe_Attach_Combat_Knife_to_Spear = "把野战刀绑到长矛上",
+	Recipe_Attach_Military_Knife_to_Spear = "把军刀绑到长矛上",
+	Recipe_Attach_Camping_Knife_to_Spear = "把户外小刀绑到长矛上",
+	Recipe_Attach_Military_Machete_to_Spear = "把军用砍刀绑到长矛上",
+	Recipe_Attach_Sharp_Trowel_to_Spear = "把尖头园艺铲绑到长矛上",
+	Recipe_Attach_Garden_Shear_Blade_to_Spear = "把园艺剪刀片绑到长矛上",
+	Recipe_Attach_Kukri_to_Spear = "把阔头弯刀绑到长矛上",
+	
+	Recipe_Reclaim_Combat_Knife_from_Spear = "从长矛上取下野战刀",
+	Recipe_Reclaim_Military_Knife_from_Spear = "从长矛上取下军刀",
+	Recipe_Reclaim_Camping_Knife_from_Spear = "从长矛上取下户外小刀",
+	Recipe_Reclaim_Military_Machete_from_Spear = "从长矛上取下军用砍刀",
+	Recipe_Reclaim_Sharp_Trowel_from_Spear = "从长矛上取下尖头园艺铲",
+	Recipe_Reclaim_Garden_Shear_Blade_from_Spear = "从长矛上取下园艺剪刀片",
+	Recipe_Reclaim_Kukri_from_Spear = "从长矛上取下阔头弯刀",	
+
+}

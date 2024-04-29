@@ -1,0 +1,49 @@
+Recipes_PL = {
+
+	Recipe_Make_Shovel_Axe = "Stworz topor z lopaty",
+	Recipe_Make_Shovel_Spear = "Stworz wloczniee z lopaty",
+
+	Recipe_Make_Sharp_Trowel = "Stworz Ostra Kielnie",
+
+	Recipe_Disassemble_Garden_Shears = "Zdemontuj nozyce ogrodowe",	
+
+	Recipe_Saw_Off_Pipe = "Utnij rure",
+	Recipe_Saw_Off_Bar = "Utnij belke",
+
+	Recipe_Break_Plank_In_Half = "Zlam na pol",
+	Recipe_Saw_Plank_In_Half = "Przepiluj na pol",
+
+	Recipe_Break_Tree_Branch_In_Half = "Zlam na pol",
+	Recipe_Saw_Tree_Branch_In_Half = "Przepiluj na pol",
+	Recipe_Cut_Tree_Branch_In_Half = "Przetnij na pol nozem",
+
+	Recipe_Build_Spiked_Half_Plank = "Stworz polowke deski z kolcami",
+
+	Recipe_Build_Wired_Baseball_Bat = "Stworz kij baseballowy z drutem",
+	Recipe_Build_Barbed_Wired_Baseball_Bat = "Stworz kij baseballowy z drutem kolczastym",
+	Recipe_Build_Bolted_Baseball_Bat = "Stworz kij baseballowy z wkreconymi srubami",
+
+	Recipe_Create_Spear = "Stworz wloczniee",
+	Recipe_Create_Plank_Spear = "Stworz wloczniee",
+	
+	Recipe_Convert_Into_Plank_Spear = "Przerob na wloczniee",
+	
+	Recipe_Create_Spear_Chipped_Stone = "Stworz kamienia wloczniee",
+
+	Recipe_Attach_Combat_Knife_to_Spear = "Przytwierdz noz bojowy do wlocznie",
+	Recipe_Attach_Military_Knife_to_Spear = "Przytwierdz noz wojskowy do wlocznie",
+	Recipe_Attach_Camping_Knife_to_Spear = "Przytwierdz noz kempingowy do wlocznie",
+	Recipe_Attach_Military_Machete_to_Spear = "Przytwierdz maczete wojskowa do wlocznie",
+	Recipe_Attach_Sharp_Trowel_to_Spear = "Przymocuj ostra reczna lopata do wlocznie",
+	Recipe_Attach_Garden_Shear_Blade_to_Spear = "Przymocuj ostrze nozyc ogrodowych do wlocznie",
+	Recipe_Attach_Kukri_to_Spear = "Przymocuj Kukri do wlocznie.",
+	
+	Recipe_Reclaim_Combat_Knife_from_Spear = "Odzyskaj noz bojowy z wlocznie",
+	Recipe_Reclaim_Military_Knife_from_Spear = "Odzyskaj noz wojskowy z wlocznie",
+	Recipe_Reclaim_Camping_Knife_from_Spear = "Odzyskaj noz kempingowy z wlocznie",
+	Recipe_Reclaim_Military_Machete_from_Spear = "Odzyskaj maczete wojskowa z wlocznie",
+	Recipe_Reclaim_Sharp_Trowel_from_Spear = "Odzyskaj ostra reczna lopata z wlocznie",
+	Recipe_Reclaim_Garden_Shear_Blade_from_Spear = "Odzyskaj ostrze nozyc ogrodowych od wlocznie",
+	Recipe_Reclaim_Kukri_from_Spear = "Odzyskaj Kukri z rak wlocznie",	
+	
+}

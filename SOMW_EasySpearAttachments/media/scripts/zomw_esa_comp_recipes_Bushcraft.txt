@@ -1,0 +1,45 @@
+module BCGTools
+{
+
+	imports
+	{
+		Base,
+	}
+
+    recipe Attach Survival Knife to Spear
+    {
+        SpearCrafted/PlankSpear,
+        SurvivalKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:SpearSurvivalKnife,
+        Time:200.0,		
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+
+    recipe Attach Cheap Survival Knife to Spear
+    {
+        SpearCrafted/PlankSpear,
+        CheapSurvivalKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:SpearCheapSurvivalKnife,
+        Time:200.0,			
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+
+	recipe Attach Kukri Machete to Spear
+    {
+        SpearCrafted/PlankSpear,
+        KukriMachete,
+        Twine/LeatherStrips/LeatherStripsDirty=2,
+
+        Result:SpearKukriMachete,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+
+}

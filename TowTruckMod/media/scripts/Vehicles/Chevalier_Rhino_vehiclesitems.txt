@@ -1,0 +1,15 @@
+module Base
+{
+	item RhinoArmor_BullBar_Item2
+	{		
+		DisplayCategory = VehicleMaintenance,
+        	Weight = 14.0,
+        	Type = Normal,
+        	DisplayName	= Rhino Bullbar,
+        	Icon = RhinoBullbar,
+        	ConditionMax = 100,
+        	MechanicsItem = TRUE,
+        	WorldStaticModel = RhinoBullbarWI,
+		Tooltip = Tooltip_item_RhinoBullbar,
+	}
+}

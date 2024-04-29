@@ -1,0 +1,99 @@
+ItemName_PTBR = {
+
+	/*** Vanilla rename ***/	
+	ItemName_Base.WoodAxe = "Machado de Lenhador",	
+	ItemName_Base.Axe = "Machado de Fogo",	
+	ItemName_Base.HandAxe = "Machado de mao",	
+	
+	ItemName_Base.Shovel = "Pa",		
+	ItemName_Base.Shovel2 = "Pa Quadrada",
+
+	ItemName_Base.TreeBranch = "Galho Grande",		
+
+	ItemName_Base.Sledgehammer = "Marreta",	
+	ItemName_Base.Sledgehammer2 = "Marreta com Cabo Longo",	
+
+	ItemName_Base.HandScythe = "Foice de Mao",	
+
+	ItemName_Base.SpearCrafted = "Lanca Artesanal",	
+
+	/*** Other Items ***/	
+	ItemName_SOMW.GardenShears = "Tesoura de jardim",	
+
+	/*** Short Blunt ***/	
+	ItemName_SOMW.LShapedLugWrench = "Chave Biela",
+	ItemName_SOMW.ShortTreeBranch = "Galho Pequeno",		
+	ItemName_SOMW.HalfPlank = "Meia Tabua",
+	ItemName_SOMW.HalfPlankNails = "Meia Tabua com Pregos",	
+	ItemName_SOMW.MeatTenderizer = "Amaciante de carne",	
+	ItemName_SOMW.FireplacePoker = "Pôquer Lareira",	
+	
+	/*** Long Blunt ***/
+	ItemName_SOMW.AluminumBaseballBat = "Taco de Beisebol de Alumínio",	
+	ItemName_SOMW.BaseballBatWire = "Taco de Beisebol com Arame",	
+	ItemName_SOMW.BaseballBatBarbedWire = "Taco de Beisebol com Arame Farpado",	
+	ItemName_SOMW.BaseballBatScrews = "Taco de Beisebol com Parafusos",	
+
+	ItemName_SOMW.WalkingCane = "Bengala",	
+	
+	ItemName_SOMW.LongLeadPipe = "Tubo de Chumbo Longo",	
+	ItemName_SOMW.LongMetalPipe = "Tubo de Metal Longo",		
+	ItemName_SOMW.LongMetalBar = "Barra de Metal Longa",		
+
+	/*** Short Blade ***/
+	ItemName_SOMW.HandFile = "Lima de Ferro",		
+	ItemName_SOMW.MilitaryKnife = "Faca Tatica Militar",	
+	ItemName_SOMW.CombatKnife = "Faca de Combate",		
+	ItemName_SOMW.CampyKnife = "Faca de Camping",	
+	ItemName_SOMW.ButterflyKnife = "Canivete Butterfly",	
+	ItemName_SOMW.SharpTrowel = "Espatula Afiada",	
+	
+	/*** Long Blade ***/	
+	ItemName_SOMW.GardenScythe = "Foice de Jardinagem",		
+	ItemName_SOMW.MilitaryMachete = "Machete Tatico Militar",	
+	ItemName_SOMW.HookMachete = "Machete de Gancho",		
+	ItemName_SOMW.GardenShearBlade = "Lâmina de tesoura de jardim",			
+	ItemName_SOMW.Kukri = "Kukri",	
+	
+	/*** Axes ***/
+	ItemName_SOMW.IceAxe = "Machado de Gelo",		
+	ItemName_SOMW.AxeHammer = "Machado de Telhado",	
+	ItemName_SOMW.UniAxe = "Machado de Carpinteiro",
+	ItemName_SOMW.CampingHatchet = "Machadinha de Camping",
+	ItemName_SOMW.EntrenchingShovel = "Pa de Trincheira",
+	
+	ItemName_SOMW.ShovelAxe = "Machado Artesanal de Metal",
+	ItemName_SOMW.Shovel2Axe = "Machado Artesanal de Metal",		
+
+	/*** Spears ***/	
+	ItemName_SOMW.ShovelSpear = "Lanca Artesanal de Metal",	
+	ItemName_SOMW.Shovel2Spear = "Lanca Artesanal de Metal",		
+	
+	ItemName_SOMW.SpearChippedStone = "Lanca de Pedra",	
+	
+	ItemName_SOMW.SpearCampyKnife = "Lanca com Faca de Camping",	
+	ItemName_SOMW.SpearMilitaryKnife = "Lanca com Faca Tatica Militar",		
+	ItemName_SOMW.SpearCombatKnife = "Lanca com Faca de Combate",	
+	ItemName_SOMW.SpearMilitaryMachete = "Lanca com Machete Tatico Militar",	
+	ItemName_SOMW.SpearSharpTrowel = "Lanca com Faca Espatula Afiada",	
+	ItemName_SOMW.SpearGardenShearBlade = "Lanca com Lâmina de tesoura de jardim",	
+    ItemName_SOMW.SpearKukri = "Lanca com Kukri",  	
+	
+	/*** Plank Spears ***/
+	ItemName_SOMW.PlankSpear = "Lanca Artesanal",	
+	ItemName_SOMW.PlankSpearKnife = "Lanca com Faca",	
+	ItemName_SOMW.PlankSpearBreadKnife = "Lanca com Faca de Pao",		
+	ItemName_SOMW.PlankSpearHuntingKnife = "Lanca com Faca de Caca",	
+	ItemName_SOMW.PlankSpearIcePick = "Lanca com Picador de Gelo",		
+	ItemName_SOMW.PlankSpearHandFork = "Lanca com Garfo de Jardinagem",		
+	ItemName_SOMW.PlankSpearScrewdriver = "Lanca com Chave de Fenda",	
+	ItemName_SOMW.PlankSpearCampyKnife = "Lanca com Faca de Camping",	
+	ItemName_SOMW.PlankSpearMilitaryKnife = "Lanca com Faca Tatica Militar",	
+	ItemName_SOMW.PlankSpearCombatKnife = "Lanca com Faca de Combate",
+	ItemName_SOMW.PlankSpearMachete = "Lanca com Machete",
+	ItemName_SOMW.PlankSpearMilitaryMachete = "Lanca com Machete Tatico Militar",		
+	ItemName_SOMW.PlankSpearSharpTrowel = "Lanca com Faca Espatula Afiada",
+	ItemName_SOMW.PlankSpearGardenShearBlade = "Lanca com Lâmina de tesoura de jardim",	
+    ItemName_SOMW.PlankSpearKukri = "Lanca com Kukri", 
+
+}

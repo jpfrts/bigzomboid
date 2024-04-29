@@ -1,0 +1,21 @@
+module SilentsGlassShiv
+{
+
+	imports
+	{
+		Base,
+	}
+
+    recipe Attach Glass Shiv to Spear
+    {
+        SpearCrafted/PlankSpear,
+        GlassShiv,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:SpearGlassShiv,
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+
+}

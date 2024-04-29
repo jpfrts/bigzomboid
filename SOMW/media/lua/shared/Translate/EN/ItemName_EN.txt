@@ -1,0 +1,99 @@
+ItemName_EN = {
+
+	/*** Vanilla rename ***/	
+	ItemName_Base.WoodAxe = "Wood Axe",	
+	ItemName_Base.Axe = "Fire Axe",	
+	ItemName_Base.HandAxe = "Hand Axe",	
+	
+	ItemName_Base.Shovel = "Round Point Shovel",		
+	ItemName_Base.Shovel2 = "Square Shovel",
+
+	ItemName_Base.TreeBranch = "Tree Branch",		
+
+	ItemName_Base.Sledgehammer = "Sledgehammer",	
+	ItemName_Base.Sledgehammer2 = "Long-Handled Sledgehammer",	
+
+	ItemName_Base.HandScythe = "Hand Scythe",	
+
+	ItemName_Base.SpearCrafted = "Wooden Spear",	
+
+	/*** Other Items ***/	
+	ItemName_SOMW.GardenShears = "Garden Shears",	
+
+	/*** Short Blunt ***/	
+	ItemName_SOMW.LShapedLugWrench = "L-Shaped Lug Wrench",
+	ItemName_SOMW.ShortTreeBranch = "Short Tree Branch",		
+	ItemName_SOMW.HalfPlank = "Half Plank",
+	ItemName_SOMW.HalfPlankNails = "Spiked Half Plank",	
+	ItemName_SOMW.MeatTenderizer = "Meat Tenderizer",	
+	ItemName_SOMW.FireplacePoker = "Fireplace Poker",	
+
+	/*** Long Blunt ***/
+	ItemName_SOMW.AluminumBaseballBat = "Aluminum Baseball Bat",	
+	ItemName_SOMW.BaseballBatWire = "Wire Baseball Bat",	
+	ItemName_SOMW.BaseballBatBarbedWire = "Barbed Wire Baseball Bat",	
+	ItemName_SOMW.BaseballBatScrews = "Baseball Bat with Screws",	
+
+	ItemName_SOMW.WalkingCane = "Walking Cane",	
+	
+	ItemName_SOMW.LongLeadPipe = "Long Lead Pipe",	
+	ItemName_SOMW.LongMetalPipe = "Long Metal Pipe",		
+	ItemName_SOMW.LongMetalBar = "Long Metal Bar",		
+
+	/*** Short Blade ***/
+	ItemName_SOMW.HandFile = "Hand File",		
+	ItemName_SOMW.MilitaryKnife = "Military Knife",	
+	ItemName_SOMW.CombatKnife = "Combat Knife",		
+	ItemName_SOMW.CampyKnife = "Camping Knife",	
+	ItemName_SOMW.ButterflyKnife = "Butterfly Knife",	
+	ItemName_SOMW.SharpTrowel = "Sharp Trowel",		
+
+	/*** Long Blade ***/	
+	ItemName_SOMW.GardenScythe = "Garden Scythe",		
+	ItemName_SOMW.MilitaryMachete = "Military Machete",	
+	ItemName_SOMW.HookMachete = "Billhook Machete",		
+	ItemName_SOMW.GardenShearBlade = "Garden Shear Blade",			
+	ItemName_SOMW.Kukri = "Kukri",	
+	
+	/*** Axes ***/
+	ItemName_SOMW.IceAxe = "Ice Axe",		
+	ItemName_SOMW.AxeHammer = "Roofing Axe",	
+	ItemName_SOMW.UniAxe = "Carpenter Axe",
+	ItemName_SOMW.CampingHatchet = "Camping Hatchet",
+	ItemName_SOMW.EntrenchingShovel = "Entrenching Shovel",
+	
+	ItemName_SOMW.ShovelAxe = "Improvised Metal Axe",
+	ItemName_SOMW.Shovel2Axe = "Improvised Metal Axe",		
+
+	/*** Spears ***/	
+	ItemName_SOMW.ShovelSpear = "Improvised Metal Spear",	
+	ItemName_SOMW.Shovel2Spear = "Improvised Metal Spear",		
+	
+	ItemName_SOMW.SpearChippedStone = "Stone Spear",	
+	
+	ItemName_SOMW.SpearCampyKnife = "Spear with Camping Knife",	
+	ItemName_SOMW.SpearMilitaryKnife = "Spear with Military Knife",		
+	ItemName_SOMW.SpearCombatKnife = "Spear with Combat Knife",	
+	ItemName_SOMW.SpearMilitaryMachete = "Spear with Military Machete",	
+	ItemName_SOMW.SpearSharpTrowel = "Spear with Sharp Trowel",	
+	ItemName_SOMW.SpearGardenShearBlade = "Spear with Garden Shear Blade",	
+    ItemName_SOMW.SpearKukri = "Spear with Kukri",  	
+
+	/*** Plank Spears ***/
+	ItemName_SOMW.PlankSpear = "Wooden Spear",	
+	ItemName_SOMW.PlankSpearKnife = "Spear with Knife",	
+	ItemName_SOMW.PlankSpearBreadKnife = "Spear with Bread Knife",		
+	ItemName_SOMW.PlankSpearHuntingKnife = "Spear with Hunting Knife",	
+	ItemName_SOMW.PlankSpearIcePick = "Spear with Ice Pick",		
+	ItemName_SOMW.PlankSpearHandFork = "Spear with Hand Fork",		
+	ItemName_SOMW.PlankSpearScrewdriver = "Spear with Screwdriver",	
+	ItemName_SOMW.PlankSpearCampyKnife = "Spear with Camping Knife",	
+	ItemName_SOMW.PlankSpearMilitaryKnife = "Spear with Military Knife",	
+	ItemName_SOMW.PlankSpearCombatKnife = "Spear with Combat Knife",
+	ItemName_SOMW.PlankSpearMachete = "Spear with Machete",
+	ItemName_SOMW.PlankSpearMilitaryMachete = "Spear with Military Machete",		
+	ItemName_SOMW.PlankSpearSharpTrowel = "Spear with Sharp Trowel",	
+	ItemName_SOMW.PlankSpearGardenShearBlade = "Spear with Garden Shear Blade",	
+    ItemName_SOMW.PlankSpearKukri = "Spear with Kukri", 
+
+}

@@ -1,0 +1,49 @@
+Recipes_UA = {
+
+	Recipe_Make_Shovel_Axe = "Змайструвати сокиру з лопати",	
+	Recipe_Make_Shovel_Spear = "Змайструвати спис з лопати",	
+
+	Recipe_Make_Sharp_Trowel = "Заточити садовий совок",
+	
+	Recipe_Disassemble_Garden_Shears = "Розібрати садові ножиці",		
+
+	Recipe_Saw_Off_Pipe = "Відпиляти частину труби",		
+	Recipe_Saw_Off_Bar = "Відпиляти частину прута",	
+
+	Recipe_Break_Plank_In_Half = "Зламати навпіл",	
+	Recipe_Saw_Plank_In_Half = "Розпиляти навпіл",
+	
+	Recipe_Break_Tree_Branch_In_Half = "Зламати навпіл",		
+	Recipe_Saw_Tree_Branch_In_Half = "Розпиляти навпіл",
+	Recipe_Cut_Tree_Branch_In_Half = "Розрізати навпіл",	
+
+	Recipe_Build_Spiked_Half_Plank = "Вбити цвяхи о пів дошки",	
+	
+	Recipe_Build_Wired_Baseball_Bat = "Намотати дріт на биту",	
+	Recipe_Build_Barbed_Wired_Baseball_Bat = "Намотати колючий дріт на биту",	
+	Recipe_Build_Bolted_Baseball_Bat = "Вкрутити болти в биту",		
+
+	Recipe_Create_Spear = "Змайструвати спис",
+	Recipe_Create_Plank_Spear = "Змайструвати спис",
+	
+	Recipe_Convert_Into_Plank_Spear = "Переробити в спис",
+	
+	Recipe_Create_Spear_Chipped_Stone = "Зробити кам'яний спис",
+
+	Recipe_Attach_Combat_Knife_to_Spear = "Закріпити бойовий ніж на списі",
+	Recipe_Attach_Military_Knife_to_Spear = "Закріпити армійський ніж на списі",
+	Recipe_Attach_Camping_Knife_to_Spear = "Закріпити туристичний ніж на списі",
+	Recipe_Attach_Military_Machete_to_Spear = "Закріпити армійське мачете на списі",
+	Recipe_Attach_Sharp_Trowel_to_Spear = "Закріпити гострий садовий совок на списі",
+	Recipe_Attach_Garden_Shear_Blade_to_Spear = "Закріпити лезо садових ножиць на списі",
+	Recipe_Attach_Kukri_to_Spear = "Закріпити кукри на списі",
+	
+	Recipe_Reclaim_Combat_Knife_from_Spear = "Зняти з списа бойовий ніж",
+	Recipe_Reclaim_Military_Knife_from_Spear = "Зняти з списа армійський ніж",
+	Recipe_Reclaim_Camping_Knife_from_Spear = "Зняти з списа туристичний ніж",
+	Recipe_Reclaim_Military_Machete_from_Spear = "Зняти з списа армійське мачете",
+	Recipe_Reclaim_Sharp_Trowel_from_Spear = "Зняти з списа гострий садовий совок",
+	Recipe_Reclaim_Garden_Shear_Blade_from_Spear = "Зняти з списа лезо садових ножиць",
+	Recipe_Reclaim_Kukri_from_Spear = "Зняти з списа кукри",
+	
+}

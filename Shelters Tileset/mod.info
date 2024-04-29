@@ -1,0 +1,6 @@
+name=Shelters Tileset (Required)
+poster=poster.png
+id=sheltertilesetpack
+description=Texture pack for the work of the SHELTERS mod. Required.
+pack=sheltertiles
+tiledef=sheltertiles 2024

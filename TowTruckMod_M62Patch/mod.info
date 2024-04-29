@@ -1,0 +1,5 @@
+name=Tow Truck - M62 Wrecker patch
+id=STowTruckM62Patch
+require=STowTruck,78amgeneralM62
+description=This patch gives Ki5s M62 Wrecker proper towing capability
+poster=preview.png

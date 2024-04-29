@@ -1,0 +1,99 @@
+ItemName_PL = {
+
+	/*** Vanilla rename ***/
+	ItemName_Base.WoodAxe = "Topor drwala";
+	ItemName_Base.Axe = "Topor strazacki";
+	ItemName_Base.HandAxe = "Toporek";
+
+	ItemName_Base.Shovel = "Lopata o okraglym nosie";
+	ItemName_Base.Shovel2 = "Lopata kwadratowa";
+
+	ItemName_Base.TreeBranch = "Dluga galaz drzewa";
+
+	ItemName_Base.Sledgehammer = "Mlot wyburzeniowy";
+	ItemName_Base.Sledgehammer2 = "Mlot wyburzeniowy z dlugim trzonkiem";
+
+	ItemName_Base.HandScythe = "Kosa reczna";
+
+	ItemName_Base.SpearCrafted = "Drewniana w³ócznia";
+
+	/*** Other Items ***/	
+	ItemName_SOMW.GardenShears = "Nozyce ogrodowe",	
+
+	/*** Short Blunt ***/
+	ItemName_SOMW.LShapedLugWrench = "Klucz dynamometryczny w ksztalcie L";
+	ItemName_SOMW.ShortTreeBranch = "Krotka galaz drzewa";
+	ItemName_SOMW.HalfPlank = "Polowka deski";
+	ItemName_SOMW.HalfPlankNails = "Polowka deski z gwozdziami";
+	ItemName_SOMW.MeatTenderizer = "Tluczek do miesa",	
+	ItemName_SOMW.FireplacePoker = "Poker z kominkiem",
+
+	/*** Long Blunt ***/
+	ItemName_SOMW.AluminumBaseballBat = "Aluminiowy kij baseballowy",	
+	ItemName_SOMW.BaseballBatWire = "Kij baseballowy z drutem";
+	ItemName_SOMW.BaseballBatBarbedWire = "Kij baseballowy z drutem kolczastym";
+	ItemName_SOMW.BaseballBatScrews = "Kij baseballowy z wkreconymi srubami";
+
+	ItemName_SOMW.WalkingCane = "Chodzaca laska",	
+
+	ItemName_SOMW.LongLeadPipe = "Dluga olowiana rura";
+	ItemName_SOMW.LongMetalPipe = "Dluga metalowa rura";
+	ItemName_SOMW.LongMetalBar = "Dluga metalowa belka";
+
+	/*** Short Blade ***/
+	ItemName_SOMW.HandFile = "Pilnik reczny";
+	ItemName_SOMW.MilitaryKnife = "Noz wojskowy";
+	ItemName_SOMW.CombatKnife = "Noz bojowy";
+	ItemName_SOMW.CampyKnife = "Noz kempingowy";
+	ItemName_SOMW.ButterflyKnife = "Noz motylkowy";
+	ItemName_SOMW.SharpTrowel = "Ostra kielnia",	
+
+	/*** Long Blade ***/
+	ItemName_SOMW.GardenScythe = "Kosa ogrodowa";
+	ItemName_SOMW.MilitaryMachete = "Maczeta wojskowa";
+	ItemName_SOMW.HookMachete = "Maczeta z hakiem";
+	ItemName_SOMW.GardenShearBlade = "Ostrze nozyc ogrodowych",			
+	ItemName_SOMW.Kukri = "Kukri",	
+	
+	/*** Axes ***/
+	ItemName_SOMW.IceAxe = "Topor lodowy";
+	ItemName_SOMW.AxeHammer = "Topor dekarski";
+	ItemName_SOMW.UniAxe = "Topor stolarski";
+	ItemName_SOMW.CampingHatchet = "Toporek kempingowy";
+	ItemName_SOMW.EntrenchingShovel = "Saperka";
+
+	ItemName_SOMW.ShovelAxe = "Improwizowany metalowy topor";
+	ItemName_SOMW.Shovel2Axe = "Improwizowany metalowy topor";
+
+	/*** Spears ***/
+	ItemName_SOMW.ShovelSpear = "Improwizowana metalowa w³ócznia";
+	ItemName_SOMW.Shovel2Spear = "Improwizowana metalowa w³ócznia";
+
+	ItemName_SOMW.SpearChippedStone = "Kamienna w³ócznia";
+
+	ItemName_SOMW.SpearCampyKnife = "W³ócznia z no¿em kempingowym";
+	ItemName_SOMW.SpearMilitaryKnife = "W³ócznia z no¿em wojskowym";
+	ItemName_SOMW.SpearCombatKnife = "W³ócznia z no¿em bojowym";
+	ItemName_SOMW.SpearMilitaryMachete = "W³ócznia z maczet¹ wojskowa";
+	ItemName_SOMW.SpearSharpTrowel = "W³ócznia z ostra reczna lopata",	
+	ItemName_SOMW.SpearGardenShearBlade = "W³ócznia z ostrzem nozyc ogrodowych",	
+    ItemName_SOMW.SpearKukri = "W³ócznia z Kukri",  	
+	
+	/*** Wlocznie z desek ***/
+	ItemName_SOMW.PlankSpear = "Drewniana w³ócznia";
+	ItemName_SOMW.PlankSpearKnife = "W³ócznia z no¿em";
+	ItemName_SOMW.PlankSpearBreadKnife = "W³ócznia z no¿em do chleba";
+	ItemName_SOMW.PlankSpearHuntingKnife = "W³ócznia z no¿em myœliwskim";
+	ItemName_SOMW.PlankSpearIcePick = "W³ócznia ze szpikulcem do lodu";
+	ItemName_SOMW.PlankSpearHandFork = "W³ócznia z widelcem ogrodowym";
+	ItemName_SOMW.PlankSpearScrewdriver = "W³ócznia ze œrubokrêtem";
+	ItemName_SOMW.PlankSpearCampyKnife = "W³ócznia z no¿em kempingowym";
+	ItemName_SOMW.PlankSpearMilitaryKnife = "W³ócznia z no¿em wojskowym";
+	ItemName_SOMW.PlankSpearCombatKnife = "W³ócznia z no¿em bojowym";
+	ItemName_SOMW.PlankSpearMachete = "W³ócznia z maczet¹";
+	ItemName_SOMW.PlankSpearMilitaryMachete = "W³ócznia z maczet¹ wojskowa";
+	ItemName_SOMW.PlankSpearSharpTrowel = "W³ócznia z ostra reczna lopata",	
+	ItemName_SOMW.PlankSpearGardenShearBlade = "W³ócznia z ostrzem nozyc ogrodowych",	
+    ItemName_SOMW.PlankSpearKukri = "W³ócznia z Kukri", 
+
+}

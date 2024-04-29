@@ -1,0 +1,14 @@
+Sandbox_TH = {
+
+	Sandbox_SOMW = "Simple Overhaul: Melee Weapons",
+
+	Sandbox_SOMW_CondLowerChanceMultiplier = "ตัวคูณลดการเสื่อมสภาพของอาวุธระยะประชิด:",
+	Sandbox_SOMW_CondLowerChanceMultiplier_tooltip = "ลดโอกาสพังของอาวุธระยะประชิดด้วยตัวคูณที่กำหนด<br>ตัวอย่าง: หากเลือกค่า "3" อาวุธจะพังช้าลงประมาณ 3 เท่า",
+		
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option1 = "1",	
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option2 = "2",			
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option3 = "3",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option4 = "5",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option5 = "10",	
+	
+}

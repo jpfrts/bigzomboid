@@ -1,0 +1,14 @@
+Sandbox_PTBR = {
+
+	Sandbox_SOMW = "Simple Overhaul: Melee Weapons",
+
+	Sandbox_SOMW_CondLowerChanceMultiplier = "Multiplicador de menor chance de condição de armas corpo a corpo:",
+	Sandbox_SOMW_CondLowerChanceMultiplier_tooltip = "Reduz a chance de quebrar armas brancas pelo multiplicador especificado.<br>Por exemplo: escolher um valor de "3" significa que a arma quebrará aproximadamente 3 vezes mais devagar.",
+		
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option1 = "1",	
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option2 = "2",			
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option3 = "3",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option4 = "5",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option5 = "10",	
+	
+}

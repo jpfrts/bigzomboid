@@ -1,0 +1,7 @@
+Tooltip_UA = {
+
+	Tooltip_NotForCarService = "Не підходить для обслуговування автомобілів.",
+	Tooltip_CanBeUsedAsClawHammer = "Може використовуватися як молоток або гвоздодер.",
+	Tooltip_GardenSheersCanBeDisassembled = "Можна розібрати та використовувати як зброю.",
+
+}

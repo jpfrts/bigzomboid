@@ -1,0 +1,14 @@
+Sandbox_EN = {
+
+	Sandbox_SOMW = "Simple Overhaul: Melee Weapons",
+
+	Sandbox_SOMW_CondLowerChanceMultiplier = "Melee Weapons Condition Lower Chance Multiplier:",
+	Sandbox_SOMW_CondLowerChanceMultiplier_tooltip = "Reduces chance of breaking melee weapons by the specified multiplier.<br>For example: choosing a value of "3" means that the weapon will break approximately 3 times slower.",
+		
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option1 = "1",	
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option2 = "2",			
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option3 = "3",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option4 = "5",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option5 = "10",	
+	
+}

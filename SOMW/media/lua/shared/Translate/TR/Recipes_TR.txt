@@ -1,0 +1,49 @@
+Recipes_TR = {
+
+	Recipe_Make_Shovel_Axe = "Kürekten Doðaçlama Metal Balta Yap",	
+	Recipe_Make_Shovel_Spear = "Kürekten Doðaçlama Metal Mýzrak Yap",	
+
+	Recipe_Make_Sharp_Trowel = "Keskin Bahce Kuresi Yap",
+
+    Recipe_Disassemble_Garden_Shears = "Bahçe Makasýnýn Sökülmesi",    
+
+	Recipe_Saw_Off_Pipe = "Boruyu Kes",		
+	Recipe_Saw_Off_Bar = "Çubuðu Kes",	
+
+	Recipe_Break_Plank_In_Half = "Yarýya Kes",	
+	Recipe_Saw_Plank_In_Half = "Ýkiye Kes",
+	
+	Recipe_Break_Tree_Branch_In_Half = "Ýkiye Kes",		
+	Recipe_Saw_Tree_Branch_In_Half = "Ýkiye Kes",
+	Recipe_Cut_Tree_Branch_In_Half = "Yarýya Kes",	
+
+	Recipe_Build_Spiked_Half_Plank = "Çivili Yarým Tahta Yap",	
+	
+	Recipe_Build_Wired_Baseball_Bat = "Telli Beyzbol Sopasý Yap",	
+	Recipe_Build_Barbed_Wired_Baseball_Bat = "Dikenli Telli Beyzbol Sopasý Yap",	
+	Recipe_Build_Bolted_Baseball_Bat = "Cývatalý Beyzbol Sopasý Yap",		
+
+	Recipe_Create_Spear = "Mýzrak Yap",
+	Recipe_Create_Plank_Spear = "Mýzrak Yap",
+	
+	Recipe_Convert_Into_Plank_Spear = "Mýzraða Dönüþtür",
+	
+	Recipe_Create_Spear_Chipped_Stone = "Taþ Mýzrak Yap",
+
+	Recipe_Attach_Combat_Knife_to_Spear = "Savaþ Býçaðýný Mýzraða Tak",
+	Recipe_Attach_Military_Knife_to_Spear = "Askeri Býçaðý Mýzraða Tak",
+	Recipe_Attach_Camping_Knife_to_Spear = "Kamp Býçaðýný Mýzraða Tak",
+	Recipe_Attach_Military_Machete_to_Spear = "Askeri Palayý Mýzraða Tak",
+	Recipe_Attach_Sharp_Trowel_to_Spear = "Keskin Bahce Kuresi Mýzraða Tak",
+    Recipe_Attach_Garden_Shear_Blade_to_Spear = "Bahçe Makasý Býçaðýný Mýzraða Takýn",
+    Recipe_Attach_Kukri_to_Spear = "Kukri'yi Mýzraða takýn",
+	
+	Recipe_Reclaim_Combat_Knife_from_Spear = "Savaþ Býçaðýný Mýzraktan Geri Al",
+	Recipe_Reclaim_Military_Knife_from_Spear = "Askeri Býçaðý Mýzraktan Geri Al",
+	Recipe_Reclaim_Camping_Knife_from_Spear = "Kamp Býçaðýný Mýzraktan Geri Al",
+	Recipe_Reclaim_Military_Machete_from_Spear = "Mýzraktan Askeri Palayý Geri Al",
+	Recipe_Reclaim_Sharp_Trowel_from_Spear = "Keskin Bahce Kuresi Mýzraktan Geri Al",
+    Recipe_Reclaim_Garden_Shear_Blade_from_Spear = "Bahçe Makasý Býçaðýný Mýzraktan Geri Al",
+    Recipe_Reclaim_Kukri_from_Spear = "Kukri'yi Mýzrak'tan geri alýn",  
+	
+}

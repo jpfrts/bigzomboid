@@ -1,0 +1,182 @@
+module SOMW
+{
+	imports
+	{
+		Base,
+	}
+	
+    /************************ Spear with Twine or LeatherStrips ************************/
+
+    recipe Attach Combat Knife to Spear
+    {
+        PlankSpear,
+        CombatKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+		
+        Result:PlankSpearCombatKnife,
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+    }
+	
+    recipe Attach Garden Shear Blade to Spear
+    {
+        PlankSpear,
+        GardenShearBlade,
+        Twine/LeatherStrips/LeatherStripsDirty,
+		
+        Result:PlankSpearGardenShearBlade,
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+    }	
+
+    recipe Attach Military Knife to Spear
+    {
+        PlankSpear,
+        MilitaryKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+		
+        Result:PlankSpearMilitaryKnife,
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+    }	
+	
+    recipe Attach Camping Knife to Spear
+    {
+        PlankSpear,
+        CampyKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+		
+        Result:PlankSpearCampyKnife,
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+    }	
+
+    recipe Attach Sharp Trowel to Spear
+    {
+	
+        PlankSpear,
+        SharpTrowel,
+        Twine/LeatherStrips/LeatherStripsDirty,	
+		
+        Result:PlankSpearSharpTrowel,
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+    }	
+
+	   recipe Attach Kukri to Spear
+    {
+        PlankSpear,
+        Kukri,
+        Twine/LeatherStrips/LeatherStripsDirty=2,
+
+        Result:PlankSpearKukri,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+
+    }
+
+	   recipe Attach Military Machete to Spear
+    {
+        PlankSpear,
+        MilitaryMachete,
+        Twine/LeatherStrips/LeatherStripsDirty=2,
+
+        Result:PlankSpearMilitaryMachete,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+
+    }	
+
+    recipe Attach Hunting Knife to Spear
+    {
+        PlankSpear,
+        HuntingKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+		
+        Result:PlankSpearHuntingKnife,
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+    }
+	
+	   recipe Attach Machete to Spear
+    {
+        PlankSpear,
+        Machete,
+        Twine/LeatherStrips/LeatherStripsDirty=2,
+
+        Result:PlankSpearMachete,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+
+    }
+	
+	    recipe Attach Bread Knife to Spear
+    {
+        PlankSpear,
+        BreadKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:PlankSpearBreadKnife,
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+    }
+	
+	    recipe Attach Hand Fork to Spear
+    {
+        PlankSpear,
+        HandFork,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:PlankSpearHandFork,
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+    }
+	
+	    recipe Attach Screwdriver to Spear
+    {
+        PlankSpear,
+        Screwdriver,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:PlankSpearScrewdriver,
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+    }
+	
+	    recipe Attach Kitchen Knife to Spear
+    {
+        PlankSpear,
+        KitchenKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:PlankSpearKnife,
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+    }
+	
+	    recipe Attach Ice Pick to Spear
+    {
+        PlankSpear,
+        IcePick,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:PlankSpearIcePick,
+        Time:200.0,
+        OnCreate:Recipe.OnCreate.UpgradePlankSpear,
+        Category:Survivalist,
+    }
+
+}	

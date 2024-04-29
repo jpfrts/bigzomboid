@@ -1,0 +1,12 @@
+VERSION = 1,
+
+option SOMW.CondLowerChanceMultiplier
+{
+    type = enum,
+    numValues = 5,
+    default = 1,
+    page = SOMW,
+    translation = SOMW_CondLowerChanceMultiplier,
+    valueTranslation = SOMW_CondLowerChanceMultiplier_Values,
+
+}

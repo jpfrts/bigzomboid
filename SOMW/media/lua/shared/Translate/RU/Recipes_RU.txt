@@ -1,0 +1,49 @@
+Recipes_RU = {
+
+	Recipe_Make_Shovel_Axe = "Смастерить топор из лопаты",	
+	Recipe_Make_Shovel_Spear = "Смастерить копьё из лопаты",	
+	
+	Recipe_Make_Sharp_Trowel = "Заточить садовый совок",
+
+	Recipe_Disassemble_Garden_Shears = "Разобрать садовые ножницы",	
+
+	Recipe_Saw_Off_Pipe = "Отпилить часть трубы",		
+	Recipe_Saw_Off_Bar = "Отпилить часть прута",	
+
+	Recipe_Break_Plank_In_Half = "Сломать пополам",	
+	Recipe_Saw_Plank_In_Half = "Распилить пополам",
+	
+	Recipe_Break_Tree_Branch_In_Half = "Сломать пополам",		
+	Recipe_Saw_Tree_Branch_In_Half = "Распилить пополам",
+	Recipe_Cut_Tree_Branch_In_Half = "Разрезать пополам",	
+
+	Recipe_Build_Spiked_Half_Plank = "Вбить гвозди в половину доски",	
+	
+	Recipe_Build_Wired_Baseball_Bat = "Намотать проволоку на биту",	
+	Recipe_Build_Barbed_Wired_Baseball_Bat = "Намотать колючую проволоку на биту",	
+	Recipe_Build_Bolted_Baseball_Bat = "Вкрутить болты в биту",		
+
+	Recipe_Create_Spear = "Смастерить копьё",
+	Recipe_Create_Plank_Spear = "Смастерить копьё",
+	
+	Recipe_Convert_Into_Plank_Spear = "Переделать в копьё",
+	
+	Recipe_Create_Spear_Chipped_Stone = "Сделать каменное копьё",
+
+	Recipe_Attach_Combat_Knife_to_Spear = "Закрепить боевой нож на копье",
+	Recipe_Attach_Military_Knife_to_Spear = "Закрепить армейский нож на копье",
+	Recipe_Attach_Camping_Knife_to_Spear = "Закрепить туристический нож на копье",
+	Recipe_Attach_Military_Machete_to_Spear = "Закрепить армейское мачете на копье",
+	Recipe_Attach_Sharp_Trowel_to_Spear = "Закрепить острый садовый совок на копье",
+	Recipe_Attach_Garden_Shear_Blade_to_Spear = "Закрепить лезвие садовых ножниц на копье",
+	Recipe_Attach_Kukri_to_Spear = "Закрепить кукри на копье",
+
+	Recipe_Reclaim_Combat_Knife_from_Spear = "Снять с копья боевой нож",
+	Recipe_Reclaim_Military_Knife_from_Spear = "Снять с копья армейский нож",
+	Recipe_Reclaim_Camping_Knife_from_Spear = "Снять с копья туристический нож",
+	Recipe_Reclaim_Military_Machete_from_Spear = "Снять с копья армейское мачете",
+	Recipe_Reclaim_Sharp_Trowel_from_Spear = "Снять с копья острый садовый совок",
+	Recipe_Reclaim_Garden_Shear_Blade_from_Spear = "Снять с копья лезвие садовых ножниц",
+	Recipe_Reclaim_Kukri_from_Spear = "Снять кукри с копья",	
+
+}

@@ -1,0 +1,7 @@
+Tooltip_TR = {
+
+	Tooltip_NotForCarService = "Araç bakýmý için uygun deðildir.",
+	Tooltip_CanBeUsedAsClawHammer = "Çekiç veya çivi çekici olarak kullanýlabilir.",
+	Tooltip_GardenSheersCanBeDisassembled = "Demonte edilip silah olarak kullanýlabilir.",
+	
+}

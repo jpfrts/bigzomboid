@@ -1,0 +1,14 @@
+Sandbox_DE = {
+
+	Sandbox_SOMW = "Simple Overhaul: Melee Weapons",
+
+	Sandbox_SOMW_CondLowerChanceMultiplier = "Multiplikator für geringere Wahrscheinlichkeit des Zustands von Nahkampfwaffen:",
+	Sandbox_SOMW_CondLowerChanceMultiplier_tooltip = "Reduziert die Chance, Nahkampfwaffen zu zerbrechen, um den angegebenen Multiplikator.<br>Beispiel: Wenn Sie einen Wert von "3" wählen, bedeutet dies, dass die Waffe etwa dreimal langsamer zerbricht.",
+		
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option1 = "1",	
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option2 = "2",			
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option3 = "3",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option4 = "5",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option5 = "10",	
+	
+}

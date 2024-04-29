@@ -1,0 +1,99 @@
+ItemName_CN = {
+
+	/*** Vanilla rename ***/	
+	ItemName_Base.WoodAxe = "伐木斧",	
+	ItemName_Base.Axe = "消防斧",	
+	ItemName_Base.HandAxe = "单手斧",	
+	
+	ItemName_Base.Shovel = "尖头铁锹",		
+	ItemName_Base.Shovel2 = "平头铁锹",
+
+	ItemName_Base.TreeBranch = "长树枝",		
+
+	ItemName_Base.Sledgehammer = "大铁锤",	
+	ItemName_Base.Sledgehammer2 = "长柄大铁锤",	
+
+	ItemName_Base.HandScythe = "单手镰",	
+
+	ItemName_Base.SpearCrafted = "木制长矛",	
+
+	/*** Other Items ***/	
+	ItemName_SOMW.GardenShears = "园艺剪",	
+
+	/*** Short Blunt ***/	
+	ItemName_SOMW.LShapedLugWrench = "撬胎杠",
+	ItemName_SOMW.ShortTreeBranch = "短树枝",		
+	ItemName_SOMW.HalfPlank = "短木板",
+	ItemName_SOMW.HalfPlankNails = "钉刺短木板",	
+	ItemName_SOMW.MeatTenderizer = "松肉锤",	
+	ItemName_SOMW.FireplacePoker = "烧火棍",	
+	
+	/*** Long Blunt ***/
+	ItemName_SOMW.AluminumBaseballBat = "铝合金球棒",	
+	ItemName_SOMW.BaseballBatWire = "铁丝球棒",	
+	ItemName_SOMW.BaseballBatBarbedWire = "倒刺铁丝球棒",	
+	ItemName_SOMW.BaseballBatScrews = "螺栓球棒",	
+
+	ItemName_SOMW.WalkingCane = "手杖",	
+	
+	ItemName_SOMW.LongLeadPipe = "长铅管",	
+	ItemName_SOMW.LongMetalPipe = "长金属管",		
+	ItemName_SOMW.LongMetalBar = "长金属棒",		
+
+	/*** Short Blade ***/
+	ItemName_SOMW.HandFile = "锉刀",		
+	ItemName_SOMW.MilitaryKnife = "军刀",	
+	ItemName_SOMW.CombatKnife = "野战刀",		
+	ItemName_SOMW.CampyKnife = "户外小刀",	
+	ItemName_SOMW.ButterflyKnife = "蝴蝶刀",	
+	ItemName_SOMW.SharpTrowel = "尖头园艺铲",
+	
+	/*** Long Blade ***/	
+	ItemName_SOMW.GardenScythe = "农用大镰刀",		
+	ItemName_SOMW.MilitaryMachete = "军用砍刀",	
+	ItemName_SOMW.HookMachete = "钩镰",		
+	ItemName_SOMW.GardenShearBlade = "园艺剪刀片",			
+	ItemName_SOMW.Kukri = "阔头弯刀",	
+	
+	/*** Axes ***/
+	ItemName_SOMW.IceAxe = "冰镐",		
+	ItemName_SOMW.AxeHammer = "多功能锤斧",	
+	ItemName_SOMW.UniAxe = "木工斧",
+	ItemName_SOMW.CampingHatchet = "户外短柄斧",
+	ItemName_SOMW.EntrenchingShovel = "工兵铲",
+	
+	ItemName_SOMW.ShovelAxe = "简易金属斧头",
+	ItemName_SOMW.Shovel2Axe = "简易金属斧头",		
+
+	/*** Spears ***/	
+	ItemName_SOMW.ShovelSpear = "简易金属长矛",	
+	ItemName_SOMW.Shovel2Spear = "简易金属长矛",		
+	
+	ItemName_SOMW.SpearChippedStone = "长矛(锋利碎石)",	
+	
+	ItemName_SOMW.SpearCampyKnife = "长矛(户外小刀)",	
+	ItemName_SOMW.SpearMilitaryKnife = "长矛(军刀)",		
+	ItemName_SOMW.SpearCombatKnife = "长矛(野战刀)",	
+	ItemName_SOMW.SpearMilitaryMachete = "长矛(军用砍刀)",	
+	ItemName_SOMW.SpearSharpTrowel = "长矛(尖头园艺铲)",	
+	ItemName_SOMW.SpearGardenShearBlade = "长矛(园艺剪刀片)",	
+    ItemName_SOMW.SpearKukri = "长矛(阔头弯刀)", 
+	
+	/*** Plank Spears ***/
+	ItemName_SOMW.PlankSpear = "木制长矛",	
+	ItemName_SOMW.PlankSpearKnife = "长矛(厨房刀)",	
+	ItemName_SOMW.PlankSpearBreadKnife = "长矛(面包刀)",		
+	ItemName_SOMW.PlankSpearHuntingKnife = "长矛(猎刀)",	
+	ItemName_SOMW.PlankSpearIcePick = "长矛(冰锄)",		
+	ItemName_SOMW.PlankSpearHandFork = "长矛(单手叉)",		
+	ItemName_SOMW.PlankSpearScrewdriver = "长矛(螺丝刀)",	
+	ItemName_SOMW.PlankSpearCampyKnife = "长矛(户外小刀)",	
+	ItemName_SOMW.PlankSpearMilitaryKnife = "长矛(军刀)",	
+	ItemName_SOMW.PlankSpearCombatKnife = "长矛(野战刀)",
+	ItemName_SOMW.PlankSpearMachete = "长矛(大砍刀)",
+	ItemName_SOMW.PlankSpearMilitaryMachete = "长矛(军用砍刀)",		
+	ItemName_SOMW.PlankSpearSharpTrowel = "长矛(尖头园艺铲)",	
+	ItemName_SOMW.PlankSpearGardenShearBlade = "长矛(园艺剪刀片)",	
+    ItemName_SOMW.PlankSpearKukri = "长矛(阔头弯刀)",
+
+}

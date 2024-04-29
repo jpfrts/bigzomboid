@@ -1,0 +1,14 @@
+Sandbox_TR = {
+
+	Sandbox_SOMW = "Simple Overhaul: Melee Weapons",
+
+	Sandbox_SOMW_CondLowerChanceMultiplier = "Yakýn Dövüþ Silahlarýnýn Durumu Düþük Þans Çarpaný:",
+	Sandbox_SOMW_CondLowerChanceMultiplier_tooltip = "Yakin dövüs silahlarinin kirilma sansini belirtilen çarpan kadar azaltir.<br>Örnegin: "3" degerini seçmek, silahin yaklasik 3 kat daha yavas kirilacagi anlamina gelir.",
+		
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option1 = "1",	
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option2 = "2",			
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option3 = "3",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option4 = "5",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option5 = "10",	
+	
+}

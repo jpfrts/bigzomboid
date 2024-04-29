@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world version="1.0" width="1" height="1">
+ <BMPToTMX>
+  <tmxexportdir path=""/>
+  <rulesfile path=""/>
+  <blendsfile path=""/>
+  <mapbasefile path=""/>
+  <assign-maps-to-world checked="false"/>
+  <warn-unknown-colors checked="true"/>
+  <compress checked="true"/>
+  <copy-pixels checked="true"/>
+  <update-existing checked="false"/>
+ </BMPToTMX>
+ <TMXToBMP>
+  <mainImage generate="true"/>
+  <vegetationImage generate="true"/>
+  <buildingsImage path="" generate="false"/>
+ </TMXToBMP>
+ <GenerateLots>
+  <exportdir path="."/>
+  <ZombieSpawnMap path="../../Shelter 2533/DATA/Map_ZombieSpawnMap.png"/>
+  <TileDefFolder path="../../../../../../Program Files (x86)/Steam/steamapps/common/Project Zomboid Modding Tools/Tiles"/>
+  <worldOrigin origin="29,26"/>
+ </GenerateLots>
+ <LuaSettings>
+  <spawnPointsFile path="spawnpoints.lua"/>
+  <worldObjectsFile path="objects.lua"/>
+ </LuaSettings>
+ <propertyenum name="Direction" choices="N,S,W,E" multi="false"/>
+ <propertyenum name="Pose" choices="pose01,pose02,pose03" multi="false"/>
+ <propertyenum name="Skin" choices="White,Black" multi="false"/>
+ <propertyenum name="RoomTone" choices="Generic,Barn,Mall,Warehouse,Prison,Church,Office,Factory" multi="false"/>
+ <propertyenum name="Professions" choices="all,unemployed,policeofficer,constructionworker,securityguard,parkranger,fireofficer" multi="true"/>
+ <propertydef name="Direction" default="N" enum="Direction"/>
+ <propertydef name="FaceDirection" default="true"/>
+ <propertydef name="WaterDirection" default="0.0"/>
+ <propertydef name="WaterSpeed" default="0.0"/>
+ <propertydef name="WaterGround" default="false"/>
+ <propertydef name="WaterShore" default="true"/>
+ <propertydef name="Female" default="true"/>
+ <propertydef name="Outfit" default=""/>
+ <propertydef name="Pose" default="pose01" enum="Pose"/>
+ <propertydef name="Script" default=""/>
+ <propertydef name="Skin" default="White" enum="Skin"/>
+ <propertydef name="RoomTone" default="Generic" enum="RoomTone"/>
+ <propertydef name="EntireBuilding" default="false"/>
+ <propertydef name="Professions" default="all" enum="Professions">
+  <description>Comma-separated list of professions that may spawn here.  Use &quot;all&quot; to allow any profession to spawn here.</description>
+ </propertydef>
+ <template name="ParkingStallN">
+  <property name="Direction" value="N"/>
+ </template>
+ <template name="ParkingStallS">
+  <property name="Direction" value="S"/>
+ </template>
+ <template name="ParkingStallW">
+  <property name="Direction" value="W"/>
+ </template>
+ <template name="ParkingStallE">
+  <property name="Direction" value="E"/>
+ </template>
+ <template name="WaterFlowN">
+  <property name="WaterDirection" value="0"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowS">
+  <property name="WaterDirection" value="180"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowE">
+  <property name="WaterDirection" value="90"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowW">
+  <property name="WaterDirection" value="270"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterZone">
+  <property name="WaterGround" value="false"/>
+  <property name="WaterShore" value="true"/>
+ </template>
+ <template name="RoomTone">
+  <property name="RoomTone" value="Generic"/>
+  <property name="EntireBuilding" value="false"/>
+ </template>
+ <template name="SpawnPoint">
+  <description>This template holds the default set of properties for all spawn points in the world.</description>
+  <property name="Professions" value="all"/>
+ </template>
+ <objecttype name="TownZone"/>
+ <objecttype name="Forest"/>
+ <objecttype name="DeepForest"/>
+ <objecttype name="Nav"/>
+ <objecttype name="Vegitation"/>
+ <objecttype name="TrailerPark"/>
+ <objecttype name="Farm"/>
+ <objecttype name="ParkingStall"/>
+ <objecttype name="FarmLand"/>
+ <objecttype name="WaterFlow"/>
+ <objecttype name="WaterZone"/>
+ <objecttype name="Mannequin"/>
+ <objecttype name="RoomTone"/>
+ <objecttype name="SpawnPoint"/>
+ <objectgroup name="ParkingStall" color="#ff007f" defaulttype="ParkingStall"/>
+ <objectgroup name="TownZone" color="#aa0000" defaulttype="TownZone"/>
+ <objectgroup name="Forest" color="#00aa00" defaulttype="Forest"/>
+ <objectgroup name="Nav" color="#55aaff" defaulttype="Nav"/>
+ <objectgroup name="DeepForest" color="#003500" defaulttype="DeepForest"/>
+ <objectgroup name="Vegitation" color="#b3b300" defaulttype="Vegitation"/>
+ <objectgroup name="TrailerPark" color="#f50000" defaulttype="TrailerPark"/>
+ <objectgroup name="Farm" color="#55ff7f" defaulttype="Farm"/>
+ <objectgroup name="FarmLand" color="#bcff7d" defaulttype="FarmLand"/>
+ <objectgroup name="WaterFlow" color="#0000ff" defaulttype="WaterFlow"/>
+ <objectgroup name="WaterZone" color="#0000ff" defaulttype="WaterZone"/>
+ <objectgroup name="Mannequin" color="#0000ff" defaulttype="Mannequin"/>
+ <objectgroup name="RoomTone" color="#0000ff" defaulttype="RoomTone"/>
+ <cell x="0" y="0" map="../29_26.tmx">
+  <object group="Nav" type="Nav" x="0" y="255" level="0" width="300" height="8"/>
+  <object group="Nav" type="Nav" x="1" y="98" level="0" width="240" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="3" y="244" level="0" width="297" height="11"/>
+  <object group="Vegitation" type="Vegitation" x="231" y="115" level="0" width="9" height="129"/>
+  <object group="Vegitation" type="Vegitation" x="3" y="104" level="0" width="9" height="140"/>
+  <object group="Vegitation" type="Vegitation" x="12" y="104" level="0" width="219" height="7"/>
+  <object group="Vegitation" type="Vegitation" x="0" y="90" level="0" width="237" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="0" y="0" level="0" width="10" height="90"/>
+  <object group="Vegitation" type="Vegitation" x="60" y="25" level="0" width="6" height="65"/>
+  <object group="Vegitation" type="Vegitation" x="60" y="0" level="0" width="6" height="19"/>
+  <object group="Vegitation" type="Vegitation" x="10" y="19" level="0" width="219" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="116" y="25" level="0" width="7" height="65"/>
+  <object group="Vegitation" type="Vegitation" x="116" y="0" level="0" width="7" height="19"/>
+  <object group="Vegitation" type="Vegitation" x="173" y="0" level="0" width="6" height="19"/>
+  <object group="Vegitation" type="Vegitation" x="173" y="25" level="0" width="6" height="65"/>
+  <object group="Vegitation" type="Vegitation" x="229" y="0" level="0" width="12" height="81"/>
+  <object group="Farm" type="Farm" x="10" y="25" level="0" width="50" height="65"/>
+  <object group="Farm" type="Farm" x="10" y="0" level="0" width="50" height="19"/>
+  <object group="Farm" type="Farm" x="66" y="0" level="0" width="50" height="19"/>
+  <object group="Farm" type="Farm" x="66" y="25" level="0" width="50" height="65"/>
+  <object group="Farm" type="Farm" x="123" y="25" level="0" width="50" height="65"/>
+  <object group="Farm" type="Farm" x="123" y="0" level="0" width="50" height="19"/>
+  <object group="Farm" type="Farm" x="179" y="0" level="0" width="50" height="19"/>
+  <object group="Farm" type="Farm" x="179" y="25" level="0" width="50" height="65"/>
+  <object group="Farm" type="Farm" x="12" y="111" level="0" width="219" height="133"/>
+  <object group="Farm" type="Farm" x="240" y="115" level="0" width="60" height="129"/>
+  <object group="Vegitation" type="Vegitation" x="0" y="263" level="0" width="300" height="37"/>
+  <object type="SpawnPoint" x="239" y="96" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object group="ParkingStall" type="ParkingStall" x="243" y="96" level="0" width="3" height="5"/>
+  <object group="Farm" type="Farm" x="241" y="0" level="0" width="59" height="81"/>
+  <object group="Farm" type="Farm" x="269" y="81" level="0" width="31" height="26"/>
+  <object group="Vegitation" type="Vegitation" x="231" y="107" level="0" width="69" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="229" y="81" level="0" width="8" height="9"/>
+ </cell>
+</world>

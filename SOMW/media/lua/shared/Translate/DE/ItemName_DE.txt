@@ -1,0 +1,99 @@
+ItemName_DE = {
+
+	/*** Vanilla rename ***/	
+	ItemName_Base.WoodAxe = "Holzfalleraxt",	
+	ItemName_Base.Axe = "Feuerwehrbeil",	
+	ItemName_Base.HandAxe = "Hand Axt",	
+	
+	ItemName_Base.Shovel = "Schaufel",		
+	ItemName_Base.Shovel2 = "Spaten",
+
+	ItemName_Base.TreeBranch = "Langer Ast",		
+
+	ItemName_Base.Sledgehammer = "Vorschlaghammer",	
+	ItemName_Base.Sledgehammer2 = "Langstieliger Vorschlaghammer",	
+
+	ItemName_Base.HandScythe = "Handsense",	
+
+	ItemName_Base.SpearCrafted = "Holzspeer",	
+
+	/*** Other Items ***/	
+	ItemName_SOMW.GardenShears = "Gartenschere",	
+
+	/*** Short Blunt ***/	
+	ItemName_SOMW.LShapedLugWrench = "L-formiger Schraubenschlussel",
+	ItemName_SOMW.ShortTreeBranch = "Kurzer Ast",		
+	ItemName_SOMW.HalfPlank = "Halbplanke",
+	ItemName_SOMW.HalfPlankNails = "Mit Stacheln versehene halbe Planke",	
+	ItemName_SOMW.MeatTenderizer = "Fleischklopfer",	
+	ItemName_SOMW.FireplacePoker = "Kaminpoker",
+	
+	/*** Long Blunt ***/
+	ItemName_SOMW.AluminumBaseballBat = "Aluminum Baseball Bat",	
+	ItemName_SOMW.BaseballBatWire = "Draht umwickelter Baseballschlager",	
+	ItemName_SOMW.BaseballBatBarbedWire = "Stacheldraht umwickelter Baseballschlager",	
+	ItemName_SOMW.BaseballBatScrews = "Mit Schrauben versehener Baseballschlager",	
+
+	ItemName_SOMW.WalkingCane = "Spazierstock",	
+	
+	ItemName_SOMW.LongLeadPipe = "Langes Bleirohr",	
+	ItemName_SOMW.LongMetalPipe = "Langes Metallrohr",		
+	ItemName_SOMW.LongMetalBar = "Lange Metallstange",		
+
+	/*** Short Blade ***/
+	ItemName_SOMW.HandFile = "Handfeile",		
+	ItemName_SOMW.MilitaryKnife = "Militarmesser",	
+	ItemName_SOMW.CombatKnife = "Kampfmesser",		
+	ItemName_SOMW.CampyKnife = "Campingmesser",	
+	ItemName_SOMW.ButterflyKnife = "Klappmesser",	
+	ItemName_SOMW.SharpTrowel = "Scharfe Kelle",	
+
+	/*** Long Blade ***/	
+	ItemName_SOMW.GardenScythe = "Gartensense",		
+	ItemName_SOMW.MilitaryMachete = "Militarmachete",	
+	ItemName_SOMW.HookMachete = "Billhook-Machete",		
+	ItemName_SOMW.GardenShearBlade = "Gartenscherenklinge",			
+	ItemName_SOMW.Kukri = "Kukri",	
+
+	/*** Axes ***/
+	ItemName_SOMW.IceAxe = "Eispickel",		
+	ItemName_SOMW.AxeHammer = "Dachdecker-Axt",	
+	ItemName_SOMW.UniAxe = "Zimmermannsaxt",
+	ItemName_SOMW.CampingHatchet = "Campingbeil",
+	ItemName_SOMW.EntrenchingShovel = "Feldspaten ",
+	
+	ItemName_SOMW.ShovelAxe = "Improvisierte Metallaxt",
+	ItemName_SOMW.Shovel2Axe = "Improvisierte Metallaxt",		
+
+	/*** Spears ***/	
+	ItemName_SOMW.ShovelSpear = "Improvisierter Metallspeer",	
+	ItemName_SOMW.Shovel2Spear = "Improvisierter Metallspeer",		
+	
+	ItemName_SOMW.SpearChippedStone = "Steinspeer",	
+	
+	ItemName_SOMW.SpearCampyKnife = "Speer mit Campingmesser",	
+	ItemName_SOMW.SpearMilitaryKnife = "Speer mit Militärmesser",		
+	ItemName_SOMW.SpearCombatKnife = "Speer mit Kampfmesser",	
+	ItemName_SOMW.SpearMilitaryMachete = "Speer mit Militärmachete",	
+	ItemName_SOMW.SpearSharpTrowel = "Speer mit Scharfe Kelle",	
+	ItemName_SOMW.SpearGardenShearBlade = "Speer mit Gartenscherenklinge",	
+    ItemName_SOMW.SpearKukri = "Speer mit Kukri",  
+
+	/*** Plank Spears ***/
+	ItemName_SOMW.PlankSpear = "Holzspeer",	
+	ItemName_SOMW.PlankSpearKnife = "Speer mit Messer",	
+	ItemName_SOMW.PlankSpearBreadKnife = "Speer mit Brotmesser",		
+	ItemName_SOMW.PlankSpearHuntingKnife = "Speer mit Jagdmesser",	
+	ItemName_SOMW.PlankSpearIcePick = "Speer mit Eispickel",		
+	ItemName_SOMW.PlankSpearHandFork = "Speer mit Handgabel",		
+	ItemName_SOMW.PlankSpearScrewdriver = "Speer mit Schraubenzieher",	
+	ItemName_SOMW.PlankSpearCampyKnife = "Speer mit Campingmesser",	
+	ItemName_SOMW.PlankSpearMilitaryKnife = "Speer mit Militärmesser",	
+	ItemName_SOMW.PlankSpearCombatKnife = "Speer mit Kampfmesser",
+	ItemName_SOMW.PlankSpearMachete = "Speer mit Machete",
+	ItemName_SOMW.PlankSpearMilitaryMachete = "Speer mit Militärmachete",		
+	ItemName_SOMW.PlankSpearSharpTrowel = "Speer mit Scharfe Kelle",	
+	ItemName_SOMW.PlankSpearGardenShearBlade = "Speer mit Gartenscherenklinge",	
+    ItemName_SOMW.PlankSpearKukri = "Speer mit Kukri",
+
+}

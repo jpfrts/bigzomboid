@@ -1,0 +1,14 @@
+Sandbox_CH = {
+
+    Sandbox_SOMW = "Simple Overhaul: Melee Weapons",
+
+    Sandbox_SOMW_CondLowerChanceMultiplier = "近戰武器耐久倍率:",
+    Sandbox_SOMW_CondLowerChanceMultiplier_tooltip = "按此倍率降低近戰武器的損耗幾率.<br>例如: 選擇 "3" 會使損耗幾率降為原本的三分之一.",
+
+    Sandbox_SOMW_CondLowerChanceMultiplier_Values_option1 = "1",
+    Sandbox_SOMW_CondLowerChanceMultiplier_Values_option2 = "2",
+    Sandbox_SOMW_CondLowerChanceMultiplier_Values_option3 = "3",
+    Sandbox_SOMW_CondLowerChanceMultiplier_Values_option4 = "5",
+    Sandbox_SOMW_CondLowerChanceMultiplier_Values_option5 = "10",
+
+}

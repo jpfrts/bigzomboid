@@ -1,0 +1,14 @@
+Sandbox_PL = {
+
+	Sandbox_SOMW = "Simple Overhaul: Melee Weapons",
+
+	Sandbox_SOMW_CondLowerChanceMultiplier = "Stan broni białej Mnożnik mniejszej szansy:",
+	Sandbox_SOMW_CondLowerChanceMultiplier_tooltip = "Zmniejsza szansę na zniszczenie broni białej o określony mnożnik.<br>Na przykład: wybranie wartości „3” oznacza, że broń będzie łamać się około 3 razy wolniej.",
+		
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option1 = "1",	
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option2 = "2",			
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option3 = "3",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option4 = "5",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option5 = "10",	
+	
+}

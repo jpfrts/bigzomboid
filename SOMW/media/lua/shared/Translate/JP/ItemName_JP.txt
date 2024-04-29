@@ -1,0 +1,99 @@
+ItemName_JP = {
+
+	/*** Vanilla rename ***/	
+	ItemName_Base.WoodAxe = "薪割り斧",
+	ItemName_Base.Axe = "消火斧",
+	ItemName_Base.HandAxe = "手斧",
+
+	ItemName_Base.Shovel = "シャベル(丸型)",
+	ItemName_Base.Shovel2 = "シャベル(角型)",
+
+	ItemName_Base.TreeBranch = "木の枝(長)",
+
+	ItemName_Base.Sledgehammer = "スレッジハンマー",
+	ItemName_Base.Sledgehammer2 = "大型スレッジハンマー",
+
+	ItemName_Base.HandScythe = "鎌",
+
+	ItemName_Base.SpearCrafted = "槍(手製)",
+
+	/*** Other Items ***/	
+	ItemName_SOMW.GardenShears = "植木鋏",	
+
+	/*** Short Blunt ***/	
+	ItemName_SOMW.LShapedLugWrench = "L型ラグレンチ",
+	ItemName_SOMW.ShortTreeBranch = "木の枝(短)",
+	ItemName_SOMW.HalfPlank = "木板(短)",
+	ItemName_SOMW.HalfPlankNails = "釘板(短)",
+	ItemName_SOMW.MeatTenderizer = "肉たたき",
+	ItemName_SOMW.FireplacePoker = "火かき棒",
+	
+	/*** Long Blunt ***/
+	ItemName_SOMW.AluminumBaseballBat = "アルミ製野球バット",
+	ItemName_SOMW.BaseballBatWire = "ワイヤーバット",
+	ItemName_SOMW.BaseballBatBarbedWire = "有刺鉄線バット",
+	ItemName_SOMW.BaseballBatScrews = "ネジバット",
+
+	ItemName_SOMW.WalkingCane = "歩行杖",
+	
+	ItemName_SOMW.LongLeadPipe = "リードパイプ(長)",
+	ItemName_SOMW.LongMetalPipe = "金属パイプ(長)",
+	ItemName_SOMW.LongMetalBar = "金属棒(長)",
+
+	/*** Short Blade ***/
+	ItemName_SOMW.HandFile = "平ヤスリ",
+	ItemName_SOMW.MilitaryKnife = "軍用ナイフ",
+	ItemName_SOMW.CombatKnife = "コンバットナイフ",
+	ItemName_SOMW.CampyKnife = "キャンピングナイフ",
+	ItemName_SOMW.ButterflyKnife = "バタフライナイフ",
+	ItemName_SOMW.SharpTrowel = "改造こて",		
+
+	/*** Long Blade ***/	
+	ItemName_SOMW.GardenScythe = "園芸用鎌",
+	ItemName_SOMW.MilitaryMachete = "軍用マチェット",
+	ItemName_SOMW.HookMachete = "ビルフックマチェット",
+	ItemName_SOMW.GardenShearBlade = "分解した植木鋏",			
+	ItemName_SOMW.Kukri = "ククリ",	
+	
+	/*** Axes ***/
+	ItemName_SOMW.IceAxe = "アイスバイル",
+	ItemName_SOMW.AxeHammer = "槌斧",	
+	ItemName_SOMW.UniAxe = "大工斧",
+	ItemName_SOMW.CampingHatchet = "キャンピングハチェット",
+	ItemName_SOMW.EntrenchingShovel = "軍用携帯シャベル",
+
+	ItemName_SOMW.ShovelAxe = "即席金属斧(丸型)",
+	ItemName_SOMW.Shovel2Axe = "即席金属斧(角型)",
+
+	/*** Spears ***/	
+	ItemName_SOMW.ShovelSpear = "即席金属槍",
+	ItemName_SOMW.Shovel2Spear = "即席金属槍",
+
+	ItemName_SOMW.SpearChippedStone = "石の槍",
+
+	ItemName_SOMW.SpearCampyKnife = "槍(キャンピングナイフ)",
+	ItemName_SOMW.SpearMilitaryKnife = "槍(軍用ナイフ)",
+	ItemName_SOMW.SpearCombatKnife = "槍(コンバットナイフ)",
+	ItemName_SOMW.SpearMilitaryMachete = "槍(軍用マチェット)",
+	ItemName_SOMW.SpearSharpTrowel = "槍(鋭いこて)",	
+	ItemName_SOMW.SpearGardenShearBlade = "槍(分解した植木鋏)",
+	ItemName_SOMW.SpearKukri = "槍(ククリ)",   
+	
+	/*** Plank Spears ***/
+	ItemName_SOMW.PlankSpear = "槍(木製)",
+	ItemName_SOMW.PlankSpearKnife = "槍(包丁)",
+	ItemName_SOMW.PlankSpearBreadKnife = "槍(パン切りナイフ)",
+	ItemName_SOMW.PlankSpearHuntingKnife = "槍(ハンティングナイフ)",
+	ItemName_SOMW.PlankSpearIcePick = "槍(アイスピック)",
+	ItemName_SOMW.PlankSpearHandFork = "槍(ハンドフォーク)",
+	ItemName_SOMW.PlankSpearScrewdriver = "槍(スクリュードライバー)",
+	ItemName_SOMW.PlankSpearCampyKnife = "槍(キャンピングナイフ)",
+	ItemName_SOMW.PlankSpearMilitaryKnife = "槍(軍用ナイフ)",
+	ItemName_SOMW.PlankSpearCombatKnife = "槍(コンバットナイフ)",
+	ItemName_SOMW.PlankSpearMachete = "槍(マチェット)",
+	ItemName_SOMW.PlankSpearMilitaryMachete = "槍(軍用マチェット)",
+	ItemName_SOMW.PlankSpearSharpTrowel = "槍（鋭いこて）",	
+	ItemName_SOMW.PlankSpearGardenShearBlade = "槍(分解した植木鋏)",
+	ItemName_SOMW.PlankSpearKukri = "槍(ククリ)", 
+
+}

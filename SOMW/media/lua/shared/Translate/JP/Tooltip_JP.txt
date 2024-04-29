@@ -1,0 +1,7 @@
+Tooltip_JP = {
+
+	Tooltip_NotForCarService = "車の整備には向いていません。",
+	Tooltip_CanBeUsedAsClawHammer = "釘を打ったり抜いたりする事も出来ます。",
+	Tooltip_GardenSheersCanBeDisassembled = "分解して武器としても使用可能。",
+	
+}

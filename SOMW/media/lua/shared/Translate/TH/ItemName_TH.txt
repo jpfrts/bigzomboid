@@ -1,0 +1,100 @@
+ItemName_TH = {
+
+	/*** Vanilla rename ***/	
+	ItemName_Base.WoodAxe = "ขวานตัดไม้",	
+	ItemName_Base.Axe = "ขวานดับเพลิง",	
+	ItemName_Base.HandAxe = "ขวานเล็ก",	
+	
+	ItemName_Base.Shovel = "พลั่วปลายแหลม",		
+	ItemName_Base.Shovel2 = "พลั่วปลายตัด",
+
+	ItemName_Base.TreeBranch = "กิ่งไม้ยาว",		
+
+	ItemName_Base.Sledgehammer = "ค้อนปอนด์",	
+	ItemName_Base.Sledgehammer2 = "ค้อนปอนด์ด้ามยาว",	
+
+	ItemName_Base.HandScythe = "เคียวเล็ก",	
+
+	ItemName_Base.SpearCrafted = "หอกไม้",	
+
+	/*** Other Items ***/	
+	ItemName_SOMW.GardenShears = "กรรไกรแต่งสวน",	
+
+	/*** Short Blunt ***/	
+	ItemName_SOMW.LShapedLugWrench = "ประแจบล็อกตัว L",
+	ItemName_SOMW.ShortTreeBranch = "กิ่งไม้สั้น",		
+	ItemName_SOMW.HalfPlank = "ไม้กระดานสั้น",
+	ItemName_SOMW.HalfPlankNails = "ไม้กระดานสั้นฝังตะปู",	
+	ItemName_SOMW.MeatTenderizer = "ไม้ทุบเนื้อ",	
+	ItemName_SOMW.FireplacePoker = "ที่เขี่ยเตาผิง",
+	
+	/*** Long Blunt ***/
+	ItemName_SOMW.AluminumBaseballBat = "ไม้เบสบอลอลูมิเนียม",	
+	ItemName_SOMW.BaseballBatWire = "ไม้เบสบอลหุ้มลวด",	
+	ItemName_SOMW.BaseballBatBarbedWire = "ไม้เบสบอลหุ้มลวดหนาม",	
+	ItemName_SOMW.BaseballBatScrews = "ไม้เบสบอลฝังน็อต",	
+
+	ItemName_SOMW.WalkingCane = "ไม้เท้า",	
+	
+	ItemName_SOMW.LongLeadPipe = "ท่อน้ำยาว",	
+	ItemName_SOMW.LongMetalPipe = "ท่อเหล็กยาว",		
+	ItemName_SOMW.LongMetalBar = "แท่งเหล็กยาว",		
+
+	/*** Short Blade ***/
+	ItemName_SOMW.HandFile = "ตะไบ",		
+	ItemName_SOMW.MilitaryKnife = "มีดพกทหาร",	
+	ItemName_SOMW.CombatKnife = "มีดรบ",		
+	ItemName_SOMW.CampyKnife = "มีดเดินป่า",	
+	ItemName_SOMW.ButterflyKnife = "มีดบาลิซอง",	
+	ItemName_SOMW.SharpTrowel = "เกรียงแหลมคม",	
+	ItemName_SOMW.SharpTrowel = "เกรียงแหลม",	
+	
+	/*** Long Blade ***/	
+	ItemName_SOMW.GardenScythe = "เคียวด้ามยาว",		
+	ItemName_SOMW.MilitaryMachete = "มีดมาเชเต้ทหาร",	
+	ItemName_SOMW.HookMachete = "มีดมาเชเต้ปลายตะขอ",		
+	ItemName_SOMW.GardenShearBlade = "คมกรรไกรแต่งสวนข้างเดียว",			
+	ItemName_SOMW.Kukri = "มีดกุรข่า",	
+	
+	/*** Axes ***/
+	ItemName_SOMW.IceAxe = "ขวานสับน้ำแข็ง",		
+	ItemName_SOMW.AxeHammer = "ขวานมุงหลังคา",	
+	ItemName_SOMW.UniAxe = "ขวานช่างไม้",
+	ItemName_SOMW.CampingHatchet = "ขวานเดินป่า",
+	ItemName_SOMW.EntrenchingShovel = "พลั่วสนาม",
+	
+	ItemName_SOMW.ShovelAxe = "ขวานเหล็กประยุกต์",
+	ItemName_SOMW.Shovel2Axe = "ขวานเหล็กประยุกต์",
+
+	/*** Spears ***/	
+	ItemName_SOMW.ShovelSpear = "หอกเหล็กประยุกต์",	
+	ItemName_SOMW.Shovel2Spear = "หอกเหล็กประยุกต์",		
+	
+	ItemName_SOMW.SpearChippedStone = "หอกปลายหินบิ่น",	
+	
+	ItemName_SOMW.SpearCampyKnife = "หอกปลายมีดเดินป่า",	
+	ItemName_SOMW.SpearMilitaryKnife = "หอกปลายมีดพกทหาร",		
+	ItemName_SOMW.SpearCombatKnife = "หอกปลายมีดรบ",	
+	ItemName_SOMW.SpearMilitaryMachete = "หอกปลายมีดมาเชเต้ทหาร",	
+	ItemName_SOMW.SpearSharpTrowel = "หอกปลายเกรียงแหลม",	
+	ItemName_SOMW.SpearGardenShearBlade = "หอกปลายคมกรรไกรแต่งสวนข้างเดียว",	
+    ItemName_SOMW.SpearKukri = "หอกปลายมีดกุรข่า",  	
+	
+	/*** Plank Spears ***/
+	ItemName_SOMW.PlankSpear = "หอกไม้",	
+	ItemName_SOMW.PlankSpearKnife = "หอกปลายมีด",	
+	ItemName_SOMW.PlankSpearBreadKnife = "หอกปลายมีดหั่นขนมปัง",		
+	ItemName_SOMW.PlankSpearHuntingKnife = "หอกปลายมีดล่าสัตว์",	
+	ItemName_SOMW.PlankSpearIcePick = "หอกปลายเหล็กหมาด",		
+	ItemName_SOMW.PlankSpearHandFork = "หอกปลายส้อมพรวมดิน",		
+	ItemName_SOMW.PlankSpearScrewdriver = "หอกปลายไขควง",	
+	ItemName_SOMW.PlankSpearCampyKnife = "หอกปลายมีดเดินป่า",	
+	ItemName_SOMW.PlankSpearMilitaryKnife = "หอกปลายมีดพกทหาร",	
+	ItemName_SOMW.PlankSpearCombatKnife = "หอกปลายมีดรบ",
+	ItemName_SOMW.PlankSpearMachete = "หอกปลายมีดมาเชเต้",
+	ItemName_SOMW.PlankSpearMilitaryMachete = "หอกปลายมีดมาเชเต้ทหาร",		
+	ItemName_SOMW.PlankSpearSharpTrowel = "หอกปลายเกรียงแหลม",
+	ItemName_SOMW.PlankSpearGardenShearBlade = "หอกปลายคมกรรไกรแต่งสวนข้างเดียว",	
+    ItemName_SOMW.PlankSpearKukri = "หอกปลายมีดกุรข่า", 
+
+}

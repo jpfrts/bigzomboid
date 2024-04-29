@@ -1,0 +1,152 @@
+module MorePoleWeapons
+{
+	imports
+	{
+		Base
+	}
+
+    recipe Attach Hunting Knife to Long Spear
+    {
+        LongSpear,
+        HuntingKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:LongSpearHuntingKnifeTaped,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }	
+	
+    recipe Attach Kitchen Knife to Long Spear
+    {
+        LongSpear,
+        KitchenKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:LongSpearKitchenKnifeTaped,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }	
+	
+    recipe Attach Bread Knife to Long Spear
+    {
+        LongSpear,
+        BreadKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:LongSpearBreadKnifeTaped,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+
+    recipe Attach Butter Knife to Long Spear
+    {
+        LongSpear,
+        ButterKnife,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:LongSpearButterKnifeTaped,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+
+    recipe Attach Fork to Long Spear
+    {
+        LongSpear,
+        Fork,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:LongSpearForkTaped,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }	
+	
+   recipe Attach Letter Opener to Long Spear
+    {
+        LongSpear,
+        LetterOpener,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:LongSpearLetterOpenerTaped,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+
+    recipe Attach Scalpel to Long Spear
+    {
+        LongSpear,
+        Scalpel,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:LongSpearScalpelTaped,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+
+    recipe Attach Spoon to Long Spear
+    {
+        LongSpear,
+        Spoon,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:LongSpearSpoonTaped,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }	
+	
+    recipe Attach Scissors to Long Spear
+    {
+        LongSpear,
+        Scissors,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:LongSpearScissorsTaped,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+	
+    recipe Attach Hand Fork to Long Spear
+    {
+        LongSpear,
+        HandFork,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:LongSpearHandForkTaped,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+
+    recipe Attach Screwdriver to Long Spear
+    {
+        LongSpear,
+        Screwdriver,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:LongSpearScrewdriverTaped,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }	
+
+    recipe Attach Ice Pick to Long Spear
+    {
+        IcePick,
+        LongSpear,
+        Twine/LeatherStrips/LeatherStripsDirty,
+
+        Result:LongSpearIcePickTaped,
+        Time:250.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }	
+
+}

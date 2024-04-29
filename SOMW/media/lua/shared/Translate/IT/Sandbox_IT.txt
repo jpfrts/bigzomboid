@@ -1,0 +1,14 @@
+Sandbox_IT = {
+
+	Sandbox_SOMW = "Simple Overhaul: Melee Weapons",
+
+	Sandbox_SOMW_CondLowerChanceMultiplier = "Moltiplicatore Probabilita Riduzione Condizione Armi da Mischia:",
+	Sandbox_SOMW_CondLowerChanceMultiplier_tooltip = "Riduce la probabilita di rottura delle armi da mischia del moltiplicatore specificato. Ad esempio, scegliendo un valore di '3', significa che l'arma si rompera approssimativamente 3 volte piu lentamente.",
+		
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option1 = "1",	
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option2 = "2",			
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option3 = "3",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option4 = "5",
+	Sandbox_SOMW_CondLowerChanceMultiplier_Values_option5 = "10",	
+	
+}
