@@ -1,0 +1,9 @@
+Sandbox_EN = {
+	Sandbox_DrawTrafficLine			= "Draw Traffic Line",
+
+	Sandbox_DTLNeedPaint			= "Need Paint (Draw)",
+	Sandbox_DTLNeedPaint_tooltip	= "Require paint when drawing Traffic line",
+
+	Sandbox_DTLNeedPetrol			= "Need Petrol (Erase)",
+	Sandbox_DTLNeedPetrol_tooltip	= "Require petrol when erasing Traffic line",
+}

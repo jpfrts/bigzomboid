@@ -1,0 +1,30 @@
+ContextMenu_EN = {
+	
+	ContextMenu_DrawTrafficLine			= "Draw Traffic Line",
+	ContextMenu_EraseTrafficLine		= "Erase Traffic Line",
+
+	ContextMenu_TrafficLineWhite			= "White Line",
+	ContextMenu_TrafficLineWhiteCorner		= "White Line (Corner)",
+	ContextMenu_TrafficLineYellow			= "Yellow Line",
+	ContextMenu_TrafficLineYellowCorner		= "Yellow Line (Corner)",
+	ContextMenu_TrafficLinePink				= "Pink Line",
+	ContextMenu_TrafficLinePinkCorner		= "Pink Line (Corner)",
+	ContextMenu_TrafficLineBlue				= "Blue Line",
+	ContextMenu_TrafficLineBlueCorner		= "Blue Line (Corner)",
+
+	ContextMenu_TrafficLineWhiteBold		= "Bold White Line",
+	ContextMenu_TrafficLineWhiteBoldCorner	= "Bold White Line (Corner)",
+	ContextMenu_TrafficLineWhiteBoldT		= "Bold White Line (T)",
+
+	ContextMenu_TrafficLineYellowBold		= "Bold Yellow Line",
+	ContextMenu_TrafficLineYellowBoldCorner	= "Bold Yellow Line (Corner)",
+	ContextMenu_TrafficLineYellowBoldT		= "Bold Yellow Line (T)",
+
+	ContextMenu_TrafficLinePinkBold			= "Bold Pink Line",
+	ContextMenu_TrafficLinePinkBoldCorner	= "Bold Pink Line (Corner)",
+	ContextMenu_TrafficLinePinkBoldT		= "Bold Pink Line (T)",
+
+	ContextMenu_TrafficLineBlueBold			= "Bold Blue Line",
+	ContextMenu_TrafficLineBlueBoldCorner	= "Bold Blue Line (Corner)",
+	ContextMenu_TrafficLineBlueBoldT		= "Bold Blue Line (T)",
+}

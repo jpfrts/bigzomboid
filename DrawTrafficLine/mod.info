@@ -1,0 +1,7 @@
+name=Draw Traffic Line
+id=DrawTrafficLine
+description=Just Draw
+poster=poster.png
+tiledef=TLines 766
+pack=trafficlines
+icon=icon.png

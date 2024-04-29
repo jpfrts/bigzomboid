@@ -1,0 +1,17 @@
+VERSION = 1,
+
+option TrafficLine.NeedPaint
+{
+	type = boolean,
+	default = true,
+	page = DrawTrafficLine,
+	translation = DTLNeedPaint,
+}
+
+option TrafficLine.NeedPetrol
+{
+	type = boolean,
+	default = false,
+	page = DrawTrafficLine,
+	translation = DTLNeedPetrol,
+}
